@@ -1,0 +1,2634 @@
+<Layout printResolution="300" worldFileMap="{86c95ffe-50be-4916-b63b-2af7bd5a19af}" name="Localização 01" units="mm">
+ <Snapper snapToGrid="0" tolerance="5" snapToGuides="1" snapToItems="1"/>
+ <Grid resUnits="mm" offsetX="0" resolution="10" offsetY="0" offsetUnits="mm"/>
+ <PageCollection>
+  <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="" type="fill">
+   <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem referencePoint="0" positionLock="false" positionOnPage="0,0,mm" visibility="1" frameJoinStyle="miter" type="65638" blendMode="0" frame="false" size="297,210,mm" opacity="1" templateUuid="{b9a3a5d7-2666-49ca-a612-ecfc402ea421}" position="0,0,mm" excludeFromExports="0" id="" zValue="0" outlineWidthM="0.3,mm" uuid="{b9a3a5d7-2666-49ca-a612-ecfc402ea421}" groupUuid="" background="true" itemRotation="0">
+   <FrameColor alpha="255" blue="0" green="0" red="0"/>
+   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem type="65646" id="" blendMode="0" visibility="1" numSegments="2" height="3" alignment="0" numMapUnitsPerScaleBarUnit="1" outlineWidth="0.3" positionLock="false" style="Line Ticks Up" labelBarSpace="3" frameJoinStyle="miter" lineCapStyle="square" groupUuid="" lineJoinStyle="miter" size="46.9346,12.2,mm" excludeFromExports="0" position="93.0209,160.765,mm" boxContentSpace="1" opacity="1" minBarWidth="25" referencePoint="0" itemRotation="0" outlineWidthM="0.3,mm" numSegmentsLeft="0" background="false" segmentMillimeters="19.4173" segmentSizeMode="1" unitLabel="km" uuid="{3e531686-a869-47c8-81c8-b81b2fbcf926}" maxBarWidth="50" frame="false" zValue="14" templateUuid="{3e531686-a869-47c8-81c8-b81b2fbcf926}" unitType="km" numUnitsPerSegment="1" positionOnPage="93.0209,160.765,mm">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <text-style fontLetterSpacing="0" textOpacity="1" namedStyle="Normal" fontUnderline="0" fontItalic="0" textColor="0,0,0,255" fontStrikeout="0" fontCapitals="0" fontSize="7" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="MS Shell Dlg 2" fontSizeUnit="Point" fontWordSpacing="0" multilineHeight="1" fontWeight="50" blendMode="0">
+   <text-buffer bufferSize="0" bufferOpacity="1" bufferJoinStyle="128" bufferSizeUnits="MM" bufferNoFill="1" bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferColor="255,255,255,255"/>
+   <background shapeRotation="0" shapeOffsetX="0" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeBorderColor="128,128,128,255" shapeSizeType="0" shapeOffsetUnit="MM" shapeRadiiX="0" shapeDraw="0" shapeOpacity="1" shapeRadiiY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeBlendMode="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeRotationType="0" shapeSizeX="0" shapeRadiiUnit="MM" shapeSizeUnit="MM" shapeBorderWidthUnit="MM" shapeFillColor="255,255,255,255" shapeType="0"/>
+   <shadow shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowRadius="1.5" shadowOpacity="0.7" shadowRadiusUnit="MM" shadowOffsetGlobal="1" shadowRadiusAlphaOnly="0" shadowDraw="0" shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowColor="0,0,0,255"/>
+  </text-style>
+  <fillColor alpha="255" blue="0" green="0" red="0"/>
+  <fillColor2 alpha="255" blue="255" green="255" red="255"/>
+  <strokeColor alpha="255" blue="0" green="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem htmlState="1" halign="8" valign="32" referencePoint="0" positionLock="false" positionOnPage="85.1763,170.205,mm" visibility="1" labelText="&lt;font face=&quot;arial&quot; size=&quot;1&quot;>&lt;center>&lt;br>&#xa;&lt;b>Elaboração:&lt;/b> Secretaria de Agricultura, Pecuária e Abastecimento - SEAPA MG&lt;/br>&#xa;&lt;b>Fonte:&lt;/b> IDE-Sisema.&lt;/br>&#xa;&lt;b>Sistema de Coordenadas UTM&lt;/b>&lt;/br>&#xa;&lt;b>Datum:&lt;/b> SIRGAS-2000 Z 23S&lt;/br>&#xa;&lt;/center>&lt;/font>" marginY="0" frameJoinStyle="miter" type="65641" blendMode="0" frame="false" size="63.3237,23.7023,mm" opacity="1" templateUuid="{f175bbc7-eb86-4cc4-98d2-351c2b647005}" position="85.1763,170.205,mm" excludeFromExports="0" id="" marginX="0" zValue="12" outlineWidthM="0.3,mm" uuid="{f175bbc7-eb86-4cc4-98d2-351c2b647005}" groupUuid="" background="false" itemRotation="0">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" blue="0" green="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem svgFillColor="255,255,255,255" referencePoint="0" positionLock="false" positionOnPage="95.2133,190.388,mm" resizeMode="0" northMode="0" visibility="1" svgBorderColor="0,0,0,255" frameJoinStyle="miter" type="65640" blendMode="0" frame="false" size="43.2497,9.03779,mm" svgBorderWidth="0.2" opacity="1" templateUuid="{b1cc7575-681b-4c64-a22f-53ceecb3af42}" position="95.2133,190.388,mm" excludeFromExports="0" pictureRotation="0" mapUuid="" id="" zValue="10" outlineWidthM="0.3,mm" uuid="{b1cc7575-681b-4c64-a22f-53ceecb3af42}" groupUuid="" anchorPoint="0" background="false" pictureWidth="8.98268" northOffset="0" itemRotation="0" file="../Pictures/logomg_positiva RGB sem fundo.png" pictureHeight="9.03779">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem type="65642" symbolHeight="4" id="" blendMode="0" columnCount="1" visibility="1" rasterBorderColor="0,0,0,255" symbolWidth="7" positionLock="false" rasterBorderWidth="0" legendFilterByAtlas="0" title="" resizeToContents="0" frameJoinStyle="miter" boxSpace="2" wmsLegendHeight="25" groupUuid="" wrapChar="\n" size="71.5079,42.9885,mm" excludeFromExports="0" position="10.276,158.601,mm" opacity="1" splitLayer="0" referencePoint="0" rasterBorder="1" itemRotation="0" outlineWidthM="0.3,mm" equalColumnWidth="0" background="true" columnSpace="2" lineSpacing="1" uuid="{6cd4dcaa-3363-4763-888b-ee403e177718}" titleAlignment="1" frame="true" zValue="9" fontColor="#000000" templateUuid="{6cd4dcaa-3363-4763-888b-ee403e177718}" positionOnPage="10.276,158.601,mm" wmsLegendWidth="50">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title">
+    <styleFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0,Negrito" style="Negrito"/>
+   </style>
+   <style marginTop="3" name="group">
+    <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style marginTop="3" name="subgroup">
+    <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style marginTop="2.5" name="symbol">
+    <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style marginLeft="2" marginTop="2" name="symbolLabel">
+    <styleFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0,Normal" style="Normal"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer id="nascentes_611b022c_4c9f_4a6d_8b21_1d21a53f7ac8" expanded="1" checked="Qt::Checked" source="./01_Delimitacao_e_hidrografia/01_nascentes.shp" name="Nascentes" providerKey="ogr">
+    <customproperties>
+     <property value="Nascentes" key="legend/title-label"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer id="01_rio_grande_51cd87ae_99f5_4528_9196_f99d9b06fe8b" expanded="1" checked="Qt::Checked" name="01_rio_grande">
+    <customproperties>
+     <property value="Rio Grande" key="legend/title-label"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer id="hidro_rib_vermelho_f9b980a7_79c8_4011_b93b_aced09291fd2" expanded="1" checked="Qt::Checked" source="./01_Delimitacao_e_hidrografia/01_hidrografia_original.shp" name="Hidrografia Original" providerKey="ogr">
+    <customproperties>
+     <property value="Hidrografia" key="legend/label-0"/>
+     <property value="Ribeirão Vermelho" key="legend/label-1"/>
+     <property value="0,1" key="legend/node-order"/>
+     <property value="hidden" key="legend/title-style"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer id="1104_mg_municipios_pol_e25e1b51_f317_4e2c_a5bb_f0399ee5adb6" expanded="1" checked="Qt::Checked" name="1104_mg_municipios_pol">
+    <customproperties>
+     <property value="Limite Municipal" key="legend/title-label"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer id="bacia_rib_vermelho_82e1ab14_7336_4d0c_8db1_09f743c9dd8e" expanded="1" checked="Qt::Checked" source="./01_Delimitacao_e_hidrografia/01_delimitacao_subbacia.shp" name="Delimitação da Sub-bacia" providerKey="ogr">
+    <customproperties>
+     <property value="Limite da Sub-bacia (5.549,4 ha)" key="legend/title-label"/>
+    </customproperties>
+   </layer-tree-layer>
+   <custom-order enabled="0"/>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem htmlState="0" halign="4" valign="128" referencePoint="0" positionLock="false" positionOnPage="213.954,12.4115,mm" visibility="1" labelText="Localização" marginY="0" frameJoinStyle="miter" type="65641" blendMode="0" frame="true" size="22.7571,5.59792,mm" opacity="1" templateUuid="{412ef264-569e-44c8-ae59-5af341ef37ab}" position="213.954,12.4115,mm" excludeFromExports="0" id="" marginX="0" zValue="7" outlineWidthM="0.3,mm" uuid="{412ef264-569e-44c8-ae59-5af341ef37ab}" groupUuid="" background="true" itemRotation="0">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" blue="0" green="0" red="0"/>
+ </LayoutItem>
+ <LayoutItem referencePoint="0" positionLock="false" positionOnPage="252.907,40.8821,mm" cornerRadiusMeasure="0,mm" visibility="1" frameJoinStyle="miter" type="65643" blendMode="0" frame="false" size="3.90498,3.21557,mm" opacity="1" templateUuid="{104c750f-3418-40a1-98ce-7ddd20a9727d}" position="252.907,40.8821,mm" excludeFromExports="0" id="" zValue="4" outlineWidthM="0.3,mm" uuid="{104c750f-3418-40a1-98ce-7ddd20a9727d}" groupUuid="" background="false" itemRotation="0" shapeType="1">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="" type="fill">
+   <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,0"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="solid"/>
+    <prop k="outline_width" v="0.3"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+ </LayoutItem>
+ <LayoutItem referencePoint="0" positionLock="false" positionOnPage="213.954,12.4115,mm" visibility="1" keepLayerSet="true" followPreset="false" frameJoinStyle="miter" type="65639" blendMode="0" frame="true" size="76.272,61.8362,mm" opacity="1" templateUuid="{05031d60-ade7-431a-b4b1-ef0334fa09c4}" drawCanvasItems="true" mapRotation="0" position="213.954,12.4115,mm" excludeFromExports="0" id="" zValue="3" outlineWidthM="0.3,mm" uuid="{05031d60-ade7-431a-b4b1-ef0334fa09c4}" groupUuid="" background="true" itemRotation="0" followPresetName="">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymin="7280829.91988127492368221" ymax="8006894.37421841081231833" xmin="18667.36456596932839602" xmax="914232.67797944543417543"/>
+  <LayerSet>
+   <Layer provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_hidrografia_corrigida.shp" name="Hidrografia Corrigida">hidro_rib_vermelho_corrigida_7f870ebc_851f_4c83_a71f_e4619f0b2c23</Layer>
+   <Layer provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_delimitacao_subbacia.shp" name="Delimitação da Sub-bacia">bacia_rib_vermelho_82e1ab14_7336_4d0c_8db1_09f743c9dd8e</Layer>
+  </LayerSet>
+  <LayerStyles>
+   <LayerStyle layerid="UFE_BRASIL_662a104d_eda4_4b09_a994_efba6be1ddbd" provider="" source="" name="">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+         <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="color" v="255,248,211,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="174,174,174,255"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0.26"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <labeling type="simple">
+      <settings>
+       <text-style fontUnderline="0" previewBkgrdColor="#ffffff" fontCapitals="0" textOpacity="1" textColor="0,0,0,255" fontWordSpacing="0" multilineHeight="1" fontSize="8" fontItalic="0" isExpression="0" fontFamily="MS Shell Dlg 2" blendMode="0" useSubstitutions="0" fieldName="sigla" namedStyle="Normal" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point">
+        <text-buffer bufferJoinStyle="128" bufferOpacity="1" bufferSize="1" bufferSizeUnits="MM" bufferNoFill="1" bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferColor="255,255,255,255"/>
+        <background shapeRotation="0" shapeOffsetX="0" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeSVGFile="" shapeSizeType="0" shapeOffsetUnit="MM" shapeRadiiX="0" shapeDraw="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeBorderWidth="0" shapeJoinStyle="64" shapeBlendMode="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeRadiiUnit="MM" shapeRotationType="0" shapeBorderWidthUnit="MM" shapeSizeUnit="MM" shapeFillColor="255,255,255,255" shapeType="0"/>
+        <shadow shadowUnder="0" shadowScale="100" shadowOpacity="0.7" shadowOffsetDist="1" shadowRadius="1.5" shadowRadiusUnit="MM" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetUnit="MM" shadowBlendMode="6" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowColor="0,0,0,255"/>
+        <substitutions/>
+       </text-style>
+       <text-format useMaxLineLengthForAutoWrap="1" placeDirectionSymbol="0" multilineAlign="4294967295" formatNumbers="0" autoWrapLength="0" rightDirectionSymbol=">" wrapChar="" addDirectionSymbol="0" decimals="3" leftDirectionSymbol="&lt;" plussign="0" reverseDirectionSymbol="0"/>
+       <placement quadOffset="4" fitInPolygonOnly="0" placementFlags="10" placement="0" rotationAngle="0" yOffset="0" maxCurvedCharAngleOut="-25" dist="0" preserveRotation="1" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" xOffset="0" priority="5" centroidInside="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" distUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceUnits="MM" repeatDistance="0" maxCurvedCharAngleIn="25" offsetUnits="MM" offsetType="0"/>
+       <rendering fontMinPixelSize="3" fontLimitPixelSize="0" limitNumLabels="0" maxNumLabels="2000" fontMaxPixelSize="10000" obstacleFactor="1" scaleMin="0" labelPerPart="0" upsidedownLabels="0" minFeatureSize="0" zIndex="0" scaleMax="0" obstacle="1" displayAll="0" drawLabels="1" obstacleType="0" scaleVisibility="0" mergeLines="0"/>
+       <dd_properties>
+        <Option type="Map">
+         <Option name="name" value="" type="QString"/>
+         <Option name="properties"/>
+         <Option name="type" value="collection" type="QString"/>
+        </Option>
+       </dd_properties>
+      </settings>
+     </labeling>
+     <customproperties>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="1" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="ID">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="CD_GEOCODU">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="NM_ESTADO">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="NM_REGIAO">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="sigla">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="ID"/>
+      <alias index="1" name="" field="CD_GEOCODU"/>
+      <alias index="2" name="" field="NM_ESTADO"/>
+      <alias index="3" name="" field="NM_REGIAO"/>
+      <alias index="4" name="" field="sigla"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="ID"/>
+      <default applyOnUpdate="0" expression="" field="CD_GEOCODU"/>
+      <default applyOnUpdate="0" expression="" field="NM_ESTADO"/>
+      <default applyOnUpdate="0" expression="" field="NM_REGIAO"/>
+      <default applyOnUpdate="0" expression="" field="sigla"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="ID"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="CD_GEOCODU"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="NM_ESTADO"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="NM_REGIAO"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="sigla"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="ID"/>
+      <constraint exp="" desc="" field="CD_GEOCODU"/>
+      <constraint exp="" desc="" field="NM_ESTADO"/>
+      <constraint exp="" desc="" field="NM_REGIAO"/>
+      <constraint exp="" desc="" field="sigla"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="ID" width="-1" hidden="0" type="field"/>
+       <column name="CD_GEOCODU" width="-1" hidden="0" type="field"/>
+       <column name="NM_ESTADO" width="-1" hidden="0" type="field"/>
+       <column name="NM_REGIAO" width="-1" hidden="0" type="field"/>
+       <column name="sigla" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="CD_GEOCODU" editable="1"/>
+      <field name="ID" editable="1"/>
+      <field name="NM_ESTADO" editable="1"/>
+      <field name="NM_REGIAO" editable="1"/>
+      <field name="sigla" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="CD_GEOCODU"/>
+      <field labelOnTop="0" name="ID"/>
+      <field labelOnTop="0" name="NM_ESTADO"/>
+      <field labelOnTop="0" name="NM_REGIAO"/>
+      <field labelOnTop="0" name="sigla"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>ID</previewExpression>
+     <mapTip/>
+     <layerGeometryType>2</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle layerid="bacia_rib_vermelho_82e1ab14_7336_4d0c_8db1_09f743c9dd8e" provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_delimitacao_subbacia.shp" name="Delimitação da Sub-bacia">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+         <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="color" v="196,60,57,0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="0,0,0,255"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0.4"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <customproperties>
+      <property value="nome" key="dualview/previewExpressions"/>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+       <attribute color="#000000" label="" field=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="1" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="nome">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="area_ha">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="nome"/>
+      <alias index="1" name="" field="area_ha"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="nome"/>
+      <default applyOnUpdate="0" expression="" field="area_ha"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nome"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="area_ha"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="nome"/>
+      <constraint exp="" desc="" field="area_ha"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="nome" width="-1" hidden="0" type="field"/>
+       <column name="area_ha" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="area_ha" editable="1"/>
+      <field name="nome" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="area_ha"/>
+      <field labelOnTop="0" name="nome"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>nome</previewExpression>
+     <mapTip/>
+     <layerGeometryType>2</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle layerid="hidro_rib_vermelho_corrigida_7f870ebc_851f_4c83_a71f_e4619f0b2c23" provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_hidrografia_corrigida.shp" name="Hidrografia Corrigida">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" attr=" &quot;noriocomp&quot;  =  'Ribeirão Vermelho' " forceraster="0" enableorderby="0" type="categorizedSymbol">
+      <categories>
+       <category label="0" value="0" render="false" symbol="0"/>
+       <category label="1" value="1" render="true" symbol="1"/>
+      </categories>
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.3"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="1" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.5"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <source-symbol>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.3"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </source-symbol>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <customproperties>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+       <attribute color="#000000" label="" field=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="2" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="vertices">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="ordem">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="cocursodag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="cobacia">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="corio">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="codom">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="dedominial">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nucomptrec">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistbact">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistcdag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuareacont">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuareamont">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nunivotto">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="dedirec">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="decorpodag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="deligacao">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="norio">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="noriocomp">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nucomprio">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistbacr">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="cocdadesag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nucompcda">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nutrjus">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nutrmon">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nutrafl">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistbacc">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuareabacc">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuordemcda">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nunivotcda">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="vertices"/>
+      <alias index="1" name="" field="ordem"/>
+      <alias index="2" name="" field="cocursodag"/>
+      <alias index="3" name="" field="cobacia"/>
+      <alias index="4" name="" field="corio"/>
+      <alias index="5" name="" field="codom"/>
+      <alias index="6" name="" field="dedominial"/>
+      <alias index="7" name="" field="nucomptrec"/>
+      <alias index="8" name="" field="nudistbact"/>
+      <alias index="9" name="" field="nudistcdag"/>
+      <alias index="10" name="" field="nuareacont"/>
+      <alias index="11" name="" field="nuareamont"/>
+      <alias index="12" name="" field="nunivotto"/>
+      <alias index="13" name="" field="dedirec"/>
+      <alias index="14" name="" field="decorpodag"/>
+      <alias index="15" name="" field="deligacao"/>
+      <alias index="16" name="" field="norio"/>
+      <alias index="17" name="" field="noriocomp"/>
+      <alias index="18" name="" field="nucomprio"/>
+      <alias index="19" name="" field="nudistbacr"/>
+      <alias index="20" name="" field="cocdadesag"/>
+      <alias index="21" name="" field="nucompcda"/>
+      <alias index="22" name="" field="nutrjus"/>
+      <alias index="23" name="" field="nutrmon"/>
+      <alias index="24" name="" field="nutrafl"/>
+      <alias index="25" name="" field="nudistbacc"/>
+      <alias index="26" name="" field="nuareabacc"/>
+      <alias index="27" name="" field="nuordemcda"/>
+      <alias index="28" name="" field="nunivotcda"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="vertices"/>
+      <default applyOnUpdate="0" expression="" field="ordem"/>
+      <default applyOnUpdate="0" expression="" field="cocursodag"/>
+      <default applyOnUpdate="0" expression="" field="cobacia"/>
+      <default applyOnUpdate="0" expression="" field="corio"/>
+      <default applyOnUpdate="0" expression="" field="codom"/>
+      <default applyOnUpdate="0" expression="" field="dedominial"/>
+      <default applyOnUpdate="0" expression="" field="nucomptrec"/>
+      <default applyOnUpdate="0" expression="" field="nudistbact"/>
+      <default applyOnUpdate="0" expression="" field="nudistcdag"/>
+      <default applyOnUpdate="0" expression="" field="nuareacont"/>
+      <default applyOnUpdate="0" expression="" field="nuareamont"/>
+      <default applyOnUpdate="0" expression="" field="nunivotto"/>
+      <default applyOnUpdate="0" expression="" field="dedirec"/>
+      <default applyOnUpdate="0" expression="" field="decorpodag"/>
+      <default applyOnUpdate="0" expression="" field="deligacao"/>
+      <default applyOnUpdate="0" expression="" field="norio"/>
+      <default applyOnUpdate="0" expression="" field="noriocomp"/>
+      <default applyOnUpdate="0" expression="" field="nucomprio"/>
+      <default applyOnUpdate="0" expression="" field="nudistbacr"/>
+      <default applyOnUpdate="0" expression="" field="cocdadesag"/>
+      <default applyOnUpdate="0" expression="" field="nucompcda"/>
+      <default applyOnUpdate="0" expression="" field="nutrjus"/>
+      <default applyOnUpdate="0" expression="" field="nutrmon"/>
+      <default applyOnUpdate="0" expression="" field="nutrafl"/>
+      <default applyOnUpdate="0" expression="" field="nudistbacc"/>
+      <default applyOnUpdate="0" expression="" field="nuareabacc"/>
+      <default applyOnUpdate="0" expression="" field="nuordemcda"/>
+      <default applyOnUpdate="0" expression="" field="nunivotcda"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="vertices"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="ordem"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="cocursodag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="cobacia"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="corio"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="codom"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="dedominial"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nucomptrec"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistbact"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistcdag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuareacont"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuareamont"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nunivotto"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="dedirec"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="decorpodag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="deligacao"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="norio"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="noriocomp"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nucomprio"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistbacr"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="cocdadesag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nucompcda"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nutrjus"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nutrmon"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nutrafl"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistbacc"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuareabacc"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuordemcda"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nunivotcda"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="vertices"/>
+      <constraint exp="" desc="" field="ordem"/>
+      <constraint exp="" desc="" field="cocursodag"/>
+      <constraint exp="" desc="" field="cobacia"/>
+      <constraint exp="" desc="" field="corio"/>
+      <constraint exp="" desc="" field="codom"/>
+      <constraint exp="" desc="" field="dedominial"/>
+      <constraint exp="" desc="" field="nucomptrec"/>
+      <constraint exp="" desc="" field="nudistbact"/>
+      <constraint exp="" desc="" field="nudistcdag"/>
+      <constraint exp="" desc="" field="nuareacont"/>
+      <constraint exp="" desc="" field="nuareamont"/>
+      <constraint exp="" desc="" field="nunivotto"/>
+      <constraint exp="" desc="" field="dedirec"/>
+      <constraint exp="" desc="" field="decorpodag"/>
+      <constraint exp="" desc="" field="deligacao"/>
+      <constraint exp="" desc="" field="norio"/>
+      <constraint exp="" desc="" field="noriocomp"/>
+      <constraint exp="" desc="" field="nucomprio"/>
+      <constraint exp="" desc="" field="nudistbacr"/>
+      <constraint exp="" desc="" field="cocdadesag"/>
+      <constraint exp="" desc="" field="nucompcda"/>
+      <constraint exp="" desc="" field="nutrjus"/>
+      <constraint exp="" desc="" field="nutrmon"/>
+      <constraint exp="" desc="" field="nutrafl"/>
+      <constraint exp="" desc="" field="nudistbacc"/>
+      <constraint exp="" desc="" field="nuareabacc"/>
+      <constraint exp="" desc="" field="nuordemcda"/>
+      <constraint exp="" desc="" field="nunivotcda"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="vertices" width="-1" hidden="0" type="field"/>
+       <column name="ordem" width="-1" hidden="0" type="field"/>
+       <column name="cocursodag" width="-1" hidden="0" type="field"/>
+       <column name="cobacia" width="-1" hidden="0" type="field"/>
+       <column name="corio" width="-1" hidden="0" type="field"/>
+       <column name="codom" width="-1" hidden="0" type="field"/>
+       <column name="dedominial" width="-1" hidden="0" type="field"/>
+       <column name="nucomptrec" width="-1" hidden="0" type="field"/>
+       <column name="nudistbact" width="-1" hidden="0" type="field"/>
+       <column name="nudistcdag" width="-1" hidden="0" type="field"/>
+       <column name="nuareacont" width="-1" hidden="0" type="field"/>
+       <column name="nuareamont" width="-1" hidden="0" type="field"/>
+       <column name="nunivotto" width="-1" hidden="0" type="field"/>
+       <column name="dedirec" width="-1" hidden="0" type="field"/>
+       <column name="decorpodag" width="-1" hidden="0" type="field"/>
+       <column name="deligacao" width="-1" hidden="0" type="field"/>
+       <column name="norio" width="-1" hidden="0" type="field"/>
+       <column name="noriocomp" width="-1" hidden="0" type="field"/>
+       <column name="nucomprio" width="-1" hidden="0" type="field"/>
+       <column name="nudistbacr" width="-1" hidden="0" type="field"/>
+       <column name="cocdadesag" width="-1" hidden="0" type="field"/>
+       <column name="nucompcda" width="-1" hidden="0" type="field"/>
+       <column name="nutrjus" width="-1" hidden="0" type="field"/>
+       <column name="nutrmon" width="-1" hidden="0" type="field"/>
+       <column name="nutrafl" width="-1" hidden="0" type="field"/>
+       <column name="nudistbacc" width="-1" hidden="0" type="field"/>
+       <column name="nuareabacc" width="-1" hidden="0" type="field"/>
+       <column name="nuordemcda" width="-1" hidden="0" type="field"/>
+       <column name="nunivotcda" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="cobacia" editable="1"/>
+      <field name="cocdadesag" editable="1"/>
+      <field name="cocursodag" editable="1"/>
+      <field name="codom" editable="1"/>
+      <field name="corio" editable="1"/>
+      <field name="decorpodag" editable="1"/>
+      <field name="dedirec" editable="1"/>
+      <field name="dedominial" editable="1"/>
+      <field name="deligacao" editable="1"/>
+      <field name="norio" editable="1"/>
+      <field name="noriocomp" editable="1"/>
+      <field name="nuareabacc" editable="1"/>
+      <field name="nuareacont" editable="1"/>
+      <field name="nuareamont" editable="1"/>
+      <field name="nucompcda" editable="1"/>
+      <field name="nucomprio" editable="1"/>
+      <field name="nucomptrec" editable="1"/>
+      <field name="nudistbacc" editable="1"/>
+      <field name="nudistbacr" editable="1"/>
+      <field name="nudistbact" editable="1"/>
+      <field name="nudistcdag" editable="1"/>
+      <field name="nunivotcda" editable="1"/>
+      <field name="nunivotto" editable="1"/>
+      <field name="nuordemcda" editable="1"/>
+      <field name="nutrafl" editable="1"/>
+      <field name="nutrjus" editable="1"/>
+      <field name="nutrmon" editable="1"/>
+      <field name="ordem" editable="1"/>
+      <field name="vertices" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="cobacia"/>
+      <field labelOnTop="0" name="cocdadesag"/>
+      <field labelOnTop="0" name="cocursodag"/>
+      <field labelOnTop="0" name="codom"/>
+      <field labelOnTop="0" name="corio"/>
+      <field labelOnTop="0" name="decorpodag"/>
+      <field labelOnTop="0" name="dedirec"/>
+      <field labelOnTop="0" name="dedominial"/>
+      <field labelOnTop="0" name="deligacao"/>
+      <field labelOnTop="0" name="norio"/>
+      <field labelOnTop="0" name="noriocomp"/>
+      <field labelOnTop="0" name="nuareabacc"/>
+      <field labelOnTop="0" name="nuareacont"/>
+      <field labelOnTop="0" name="nuareamont"/>
+      <field labelOnTop="0" name="nucompcda"/>
+      <field labelOnTop="0" name="nucomprio"/>
+      <field labelOnTop="0" name="nucomptrec"/>
+      <field labelOnTop="0" name="nudistbacc"/>
+      <field labelOnTop="0" name="nudistbacr"/>
+      <field labelOnTop="0" name="nudistbact"/>
+      <field labelOnTop="0" name="nudistcdag"/>
+      <field labelOnTop="0" name="nunivotcda"/>
+      <field labelOnTop="0" name="nunivotto"/>
+      <field labelOnTop="0" name="nuordemcda"/>
+      <field labelOnTop="0" name="nutrafl"/>
+      <field labelOnTop="0" name="nutrjus"/>
+      <field labelOnTop="0" name="nutrmon"/>
+      <field labelOnTop="0" name="ordem"/>
+      <field labelOnTop="0" name="vertices"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>vertices</previewExpression>
+     <mapTip/>
+     <layerGeometryType>1</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle layerid="oceano_f8ecb75a_af13_4bbc_96ed_14e36ad96c02" provider="" source="" name="">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+         <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="color" v="135,197,255,255"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="135,197,255,255"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0.26"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <customproperties>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="1" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="id">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="id"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="id"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="id"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="id"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="id" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="id" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="id"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>id</previewExpression>
+     <mapTip/>
+     <layerGeometryType>2</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+  </LayerStyles>
+  <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+ </LayoutItem>
+ <LayoutItem referencePoint="0" positionLock="false" positionOnPage="10.276,12.4115,mm" visibility="1" keepLayerSet="true" followPreset="false" frameJoinStyle="miter" type="65639" blendMode="0" frame="true" size="279.95,189.178,mm" opacity="1" templateUuid="{931463d9-7ae2-4f1d-be66-0a5246eb45fc}" drawCanvasItems="true" mapRotation="0" position="10.276,12.4115,mm" excludeFromExports="0" id="" zValue="1" outlineWidthM="0.3,mm" uuid="{931463d9-7ae2-4f1d-be66-0a5246eb45fc}" groupUuid="" background="true" itemRotation="0" followPresetName="">
+  <FrameColor alpha="255" blue="0" green="0" red="0"/>
+  <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymin="7647869.45058850198984146" ymax="7658274.20935986656695604" xmin="491790.63318666664417833" xmax="507187.85570237180218101"/>
+  <LayerSet>
+   <Layer provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_nascentes.shp" name="Nascentes">nascentes_611b022c_4c9f_4a6d_8b21_1d21a53f7ac8</Layer>
+   <Layer provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_hidrografia_original.shp" name="Hidrografia Original">hidro_rib_vermelho_f9b980a7_79c8_4011_b93b_aced09291fd2</Layer>
+   <Layer provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_delimitacao_subbacia.shp" name="Delimitação da Sub-bacia">bacia_rib_vermelho_82e1ab14_7336_4d0c_8db1_09f743c9dd8e</Layer>
+  </LayerSet>
+  <LayerStyles>
+   <LayerStyle layerid="1104_mg_municipios_pol_e25e1b51_f317_4e2c_a5bb_f0399ee5adb6" provider="" source="" name="">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <symbols>
+       <symbol alpha="0.5" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+         <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="color" v="183,72,75,0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="35,35,35,255"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0.26"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <labeling type="simple">
+      <settings>
+       <text-style fontUnderline="0" previewBkgrdColor="#ffffff" fontCapitals="0" textOpacity="1" textColor="98,102,109,255" fontWordSpacing="0" multilineHeight="1" fontSize="8" fontItalic="1" isExpression="0" fontFamily="Arial" blendMode="0" useSubstitutions="0" fieldName="nome" namedStyle="Itálico" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point">
+        <text-buffer bufferJoinStyle="128" bufferOpacity="1" bufferSize="1" bufferSizeUnits="MM" bufferNoFill="1" bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferColor="255,255,255,255"/>
+        <background shapeRotation="0" shapeOffsetX="0" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeSVGFile="" shapeSizeType="0" shapeOffsetUnit="MM" shapeRadiiX="0" shapeDraw="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeBorderWidth="0" shapeJoinStyle="64" shapeBlendMode="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeRadiiUnit="MM" shapeRotationType="0" shapeBorderWidthUnit="MM" shapeSizeUnit="MM" shapeFillColor="255,255,255,255" shapeType="0"/>
+        <shadow shadowUnder="0" shadowScale="100" shadowOpacity="0.7" shadowOffsetDist="1" shadowRadius="1.5" shadowRadiusUnit="MM" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetUnit="MM" shadowBlendMode="6" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowColor="0,0,0,255"/>
+        <substitutions/>
+       </text-style>
+       <text-format useMaxLineLengthForAutoWrap="1" placeDirectionSymbol="0" multilineAlign="4294967295" formatNumbers="0" autoWrapLength="0" rightDirectionSymbol=">" wrapChar="" addDirectionSymbol="0" decimals="3" leftDirectionSymbol="&lt;" plussign="0" reverseDirectionSymbol="0"/>
+       <placement quadOffset="4" fitInPolygonOnly="0" placementFlags="10" placement="0" rotationAngle="0" yOffset="0" maxCurvedCharAngleOut="-25" dist="0" preserveRotation="1" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" xOffset="0" priority="5" centroidInside="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" distUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceUnits="MM" repeatDistance="0" maxCurvedCharAngleIn="25" offsetUnits="MM" offsetType="0"/>
+       <rendering fontMinPixelSize="3" fontLimitPixelSize="0" limitNumLabels="0" maxNumLabels="2000" fontMaxPixelSize="10000" obstacleFactor="1" scaleMin="0" labelPerPart="0" upsidedownLabels="0" minFeatureSize="0" zIndex="0" scaleMax="0" obstacle="1" displayAll="0" drawLabels="1" obstacleType="0" scaleVisibility="0" mergeLines="0"/>
+       <dd_properties>
+        <Option type="Map">
+         <Option name="name" value="" type="QString"/>
+         <Option name="properties" type="Map">
+          <Option name="PositionX" type="Map">
+           <Option name="active" value="true" type="bool"/>
+           <Option name="field" value="auxiliary_storage_labeling_positionx" type="QString"/>
+           <Option name="type" value="2" type="int"/>
+          </Option>
+          <Option name="PositionY" type="Map">
+           <Option name="active" value="true" type="bool"/>
+           <Option name="field" value="auxiliary_storage_labeling_positiony" type="QString"/>
+           <Option name="type" value="2" type="int"/>
+          </Option>
+         </Option>
+         <Option name="type" value="collection" type="QString"/>
+        </Option>
+       </dd_properties>
+      </settings>
+     </labeling>
+     <customproperties>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+       <attribute color="#000000" label="" field=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="1" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="nome">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="geocodigo">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="anoderefer">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="leicriacao">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="area">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="id">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="meta">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="auxiliary_storage_labeling_positionx">
+       <editWidget type="Hidden">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="auxiliary_storage_labeling_positiony">
+       <editWidget type="Hidden">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="nome"/>
+      <alias index="1" name="" field="geocodigo"/>
+      <alias index="2" name="" field="anoderefer"/>
+      <alias index="3" name="" field="leicriacao"/>
+      <alias index="4" name="" field="area"/>
+      <alias index="5" name="" field="id"/>
+      <alias index="6" name="" field="meta"/>
+      <alias index="7" name="" field="auxiliary_storage_labeling_positionx"/>
+      <alias index="8" name="" field="auxiliary_storage_labeling_positiony"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="nome"/>
+      <default applyOnUpdate="0" expression="" field="geocodigo"/>
+      <default applyOnUpdate="0" expression="" field="anoderefer"/>
+      <default applyOnUpdate="0" expression="" field="leicriacao"/>
+      <default applyOnUpdate="0" expression="" field="area"/>
+      <default applyOnUpdate="0" expression="" field="id"/>
+      <default applyOnUpdate="0" expression="" field="meta"/>
+      <default applyOnUpdate="0" expression="" field="auxiliary_storage_labeling_positionx"/>
+      <default applyOnUpdate="0" expression="" field="auxiliary_storage_labeling_positiony"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nome"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="geocodigo"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="anoderefer"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="leicriacao"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="area"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="id"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="meta"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="auxiliary_storage_labeling_positionx"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="auxiliary_storage_labeling_positiony"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="nome"/>
+      <constraint exp="" desc="" field="geocodigo"/>
+      <constraint exp="" desc="" field="anoderefer"/>
+      <constraint exp="" desc="" field="leicriacao"/>
+      <constraint exp="" desc="" field="area"/>
+      <constraint exp="" desc="" field="id"/>
+      <constraint exp="" desc="" field="meta"/>
+      <constraint exp="" desc="" field="auxiliary_storage_labeling_positionx"/>
+      <constraint exp="" desc="" field="auxiliary_storage_labeling_positiony"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="nome" width="-1" hidden="0" type="field"/>
+       <column name="geocodigo" width="-1" hidden="0" type="field"/>
+       <column name="anoderefer" width="-1" hidden="0" type="field"/>
+       <column name="leicriacao" width="-1" hidden="0" type="field"/>
+       <column name="area" width="-1" hidden="0" type="field"/>
+       <column name="id" width="-1" hidden="0" type="field"/>
+       <column name="meta" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+       <column name="auxiliary_storage_labeling_positionx" width="-1" hidden="1" type="field"/>
+       <column name="auxiliary_storage_labeling_positiony" width="-1" hidden="1" type="field"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="anoderefer" editable="1"/>
+      <field name="area" editable="1"/>
+      <field name="geocodigo" editable="1"/>
+      <field name="id" editable="1"/>
+      <field name="leicriacao" editable="1"/>
+      <field name="meta" editable="1"/>
+      <field name="nome" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="anoderefer"/>
+      <field labelOnTop="0" name="area"/>
+      <field labelOnTop="0" name="geocodigo"/>
+      <field labelOnTop="0" name="id"/>
+      <field labelOnTop="0" name="leicriacao"/>
+      <field labelOnTop="0" name="meta"/>
+      <field labelOnTop="0" name="nome"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>id</previewExpression>
+     <mapTip/>
+     <layerGeometryType>2</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle layerid="bacia_rib_vermelho_82e1ab14_7336_4d0c_8db1_09f743c9dd8e" provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_delimitacao_subbacia.shp" name="Delimitação da Sub-bacia">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+        <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+         <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="color" v="196,60,57,0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="0,0,0,255"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0.4"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <customproperties>
+      <property value="nome" key="dualview/previewExpressions"/>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+       <attribute color="#000000" label="" field=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="1" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="nome">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="area_ha">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="nome"/>
+      <alias index="1" name="" field="area_ha"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="nome"/>
+      <default applyOnUpdate="0" expression="" field="area_ha"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nome"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="area_ha"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="nome"/>
+      <constraint exp="" desc="" field="area_ha"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="nome" width="-1" hidden="0" type="field"/>
+       <column name="area_ha" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="area_ha" editable="1"/>
+      <field name="nome" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="area_ha"/>
+      <field labelOnTop="0" name="nome"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>nome</previewExpression>
+     <mapTip/>
+     <layerGeometryType>2</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle layerid="hidro_rib_vermelho_f9b980a7_79c8_4011_b93b_aced09291fd2" provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_hidrografia_original.shp" name="Hidrografia Original">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" attr=" &quot;noriocomp&quot;  =  'Ribeirão Vermelho' " forceraster="0" enableorderby="0" type="categorizedSymbol">
+      <categories>
+       <category label="0" value="0" render="true" symbol="0"/>
+       <category label="1" value="1" render="true" symbol="1"/>
+       <category label="" value="" render="true" symbol="2"/>
+      </categories>
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.3"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="1" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.5"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="2" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.3"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <source-symbol>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="line">
+        <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+         <prop k="capstyle" v="square"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="draw_inside_polygon" v="0"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="line_color" v="31,120,180,255"/>
+         <prop k="line_style" v="solid"/>
+         <prop k="line_width" v="0.3"/>
+         <prop k="line_width_unit" v="MM"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="ring_filter" v="0"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </source-symbol>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <customproperties>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+       <attribute color="#000000" label="" field=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="2" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="vertices">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="ordem">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="cocursodag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="cobacia">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="corio">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="codom">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="dedominial">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nucomptrec">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistbact">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistcdag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuareacont">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuareamont">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nunivotto">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="dedirec">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="decorpodag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="deligacao">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="norio">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="noriocomp">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nucomprio">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistbacr">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="cocdadesag">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nucompcda">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nutrjus">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nutrmon">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nutrafl">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nudistbacc">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuareabacc">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nuordemcda">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="nunivotcda">
+       <editWidget type="Range">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="vertices"/>
+      <alias index="1" name="" field="ordem"/>
+      <alias index="2" name="" field="cocursodag"/>
+      <alias index="3" name="" field="cobacia"/>
+      <alias index="4" name="" field="corio"/>
+      <alias index="5" name="" field="codom"/>
+      <alias index="6" name="" field="dedominial"/>
+      <alias index="7" name="" field="nucomptrec"/>
+      <alias index="8" name="" field="nudistbact"/>
+      <alias index="9" name="" field="nudistcdag"/>
+      <alias index="10" name="" field="nuareacont"/>
+      <alias index="11" name="" field="nuareamont"/>
+      <alias index="12" name="" field="nunivotto"/>
+      <alias index="13" name="" field="dedirec"/>
+      <alias index="14" name="" field="decorpodag"/>
+      <alias index="15" name="" field="deligacao"/>
+      <alias index="16" name="" field="norio"/>
+      <alias index="17" name="" field="noriocomp"/>
+      <alias index="18" name="" field="nucomprio"/>
+      <alias index="19" name="" field="nudistbacr"/>
+      <alias index="20" name="" field="cocdadesag"/>
+      <alias index="21" name="" field="nucompcda"/>
+      <alias index="22" name="" field="nutrjus"/>
+      <alias index="23" name="" field="nutrmon"/>
+      <alias index="24" name="" field="nutrafl"/>
+      <alias index="25" name="" field="nudistbacc"/>
+      <alias index="26" name="" field="nuareabacc"/>
+      <alias index="27" name="" field="nuordemcda"/>
+      <alias index="28" name="" field="nunivotcda"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="vertices"/>
+      <default applyOnUpdate="0" expression="" field="ordem"/>
+      <default applyOnUpdate="0" expression="" field="cocursodag"/>
+      <default applyOnUpdate="0" expression="" field="cobacia"/>
+      <default applyOnUpdate="0" expression="" field="corio"/>
+      <default applyOnUpdate="0" expression="" field="codom"/>
+      <default applyOnUpdate="0" expression="" field="dedominial"/>
+      <default applyOnUpdate="0" expression="" field="nucomptrec"/>
+      <default applyOnUpdate="0" expression="" field="nudistbact"/>
+      <default applyOnUpdate="0" expression="" field="nudistcdag"/>
+      <default applyOnUpdate="0" expression="" field="nuareacont"/>
+      <default applyOnUpdate="0" expression="" field="nuareamont"/>
+      <default applyOnUpdate="0" expression="" field="nunivotto"/>
+      <default applyOnUpdate="0" expression="" field="dedirec"/>
+      <default applyOnUpdate="0" expression="" field="decorpodag"/>
+      <default applyOnUpdate="0" expression="" field="deligacao"/>
+      <default applyOnUpdate="0" expression="" field="norio"/>
+      <default applyOnUpdate="0" expression="" field="noriocomp"/>
+      <default applyOnUpdate="0" expression="" field="nucomprio"/>
+      <default applyOnUpdate="0" expression="" field="nudistbacr"/>
+      <default applyOnUpdate="0" expression="" field="cocdadesag"/>
+      <default applyOnUpdate="0" expression="" field="nucompcda"/>
+      <default applyOnUpdate="0" expression="" field="nutrjus"/>
+      <default applyOnUpdate="0" expression="" field="nutrmon"/>
+      <default applyOnUpdate="0" expression="" field="nutrafl"/>
+      <default applyOnUpdate="0" expression="" field="nudistbacc"/>
+      <default applyOnUpdate="0" expression="" field="nuareabacc"/>
+      <default applyOnUpdate="0" expression="" field="nuordemcda"/>
+      <default applyOnUpdate="0" expression="" field="nunivotcda"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="vertices"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="ordem"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="cocursodag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="cobacia"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="corio"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="codom"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="dedominial"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nucomptrec"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistbact"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistcdag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuareacont"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuareamont"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nunivotto"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="dedirec"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="decorpodag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="deligacao"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="norio"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="noriocomp"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nucomprio"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistbacr"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="cocdadesag"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nucompcda"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nutrjus"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nutrmon"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nutrafl"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nudistbacc"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuareabacc"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nuordemcda"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="nunivotcda"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="vertices"/>
+      <constraint exp="" desc="" field="ordem"/>
+      <constraint exp="" desc="" field="cocursodag"/>
+      <constraint exp="" desc="" field="cobacia"/>
+      <constraint exp="" desc="" field="corio"/>
+      <constraint exp="" desc="" field="codom"/>
+      <constraint exp="" desc="" field="dedominial"/>
+      <constraint exp="" desc="" field="nucomptrec"/>
+      <constraint exp="" desc="" field="nudistbact"/>
+      <constraint exp="" desc="" field="nudistcdag"/>
+      <constraint exp="" desc="" field="nuareacont"/>
+      <constraint exp="" desc="" field="nuareamont"/>
+      <constraint exp="" desc="" field="nunivotto"/>
+      <constraint exp="" desc="" field="dedirec"/>
+      <constraint exp="" desc="" field="decorpodag"/>
+      <constraint exp="" desc="" field="deligacao"/>
+      <constraint exp="" desc="" field="norio"/>
+      <constraint exp="" desc="" field="noriocomp"/>
+      <constraint exp="" desc="" field="nucomprio"/>
+      <constraint exp="" desc="" field="nudistbacr"/>
+      <constraint exp="" desc="" field="cocdadesag"/>
+      <constraint exp="" desc="" field="nucompcda"/>
+      <constraint exp="" desc="" field="nutrjus"/>
+      <constraint exp="" desc="" field="nutrmon"/>
+      <constraint exp="" desc="" field="nutrafl"/>
+      <constraint exp="" desc="" field="nudistbacc"/>
+      <constraint exp="" desc="" field="nuareabacc"/>
+      <constraint exp="" desc="" field="nuordemcda"/>
+      <constraint exp="" desc="" field="nunivotcda"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="vertices" width="-1" hidden="0" type="field"/>
+       <column name="ordem" width="-1" hidden="0" type="field"/>
+       <column name="cocursodag" width="-1" hidden="0" type="field"/>
+       <column name="cobacia" width="-1" hidden="0" type="field"/>
+       <column name="corio" width="-1" hidden="0" type="field"/>
+       <column name="codom" width="-1" hidden="0" type="field"/>
+       <column name="dedominial" width="-1" hidden="0" type="field"/>
+       <column name="nucomptrec" width="-1" hidden="0" type="field"/>
+       <column name="nudistbact" width="-1" hidden="0" type="field"/>
+       <column name="nudistcdag" width="-1" hidden="0" type="field"/>
+       <column name="nuareacont" width="-1" hidden="0" type="field"/>
+       <column name="nuareamont" width="-1" hidden="0" type="field"/>
+       <column name="nunivotto" width="-1" hidden="0" type="field"/>
+       <column name="dedirec" width="-1" hidden="0" type="field"/>
+       <column name="decorpodag" width="-1" hidden="0" type="field"/>
+       <column name="deligacao" width="-1" hidden="0" type="field"/>
+       <column name="norio" width="-1" hidden="0" type="field"/>
+       <column name="noriocomp" width="-1" hidden="0" type="field"/>
+       <column name="nucomprio" width="-1" hidden="0" type="field"/>
+       <column name="nudistbacr" width="-1" hidden="0" type="field"/>
+       <column name="cocdadesag" width="-1" hidden="0" type="field"/>
+       <column name="nucompcda" width="-1" hidden="0" type="field"/>
+       <column name="nutrjus" width="-1" hidden="0" type="field"/>
+       <column name="nutrmon" width="-1" hidden="0" type="field"/>
+       <column name="nutrafl" width="-1" hidden="0" type="field"/>
+       <column name="nudistbacc" width="-1" hidden="0" type="field"/>
+       <column name="nuareabacc" width="-1" hidden="0" type="field"/>
+       <column name="nuordemcda" width="-1" hidden="0" type="field"/>
+       <column name="nunivotcda" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="cobacia" editable="1"/>
+      <field name="cocdadesag" editable="1"/>
+      <field name="cocursodag" editable="1"/>
+      <field name="codom" editable="1"/>
+      <field name="corio" editable="1"/>
+      <field name="decorpodag" editable="1"/>
+      <field name="dedirec" editable="1"/>
+      <field name="dedominial" editable="1"/>
+      <field name="deligacao" editable="1"/>
+      <field name="norio" editable="1"/>
+      <field name="noriocomp" editable="1"/>
+      <field name="nuareabacc" editable="1"/>
+      <field name="nuareacont" editable="1"/>
+      <field name="nuareamont" editable="1"/>
+      <field name="nucompcda" editable="1"/>
+      <field name="nucomprio" editable="1"/>
+      <field name="nucomptrec" editable="1"/>
+      <field name="nudistbacc" editable="1"/>
+      <field name="nudistbacr" editable="1"/>
+      <field name="nudistbact" editable="1"/>
+      <field name="nudistcdag" editable="1"/>
+      <field name="nunivotcda" editable="1"/>
+      <field name="nunivotto" editable="1"/>
+      <field name="nuordemcda" editable="1"/>
+      <field name="nutrafl" editable="1"/>
+      <field name="nutrjus" editable="1"/>
+      <field name="nutrmon" editable="1"/>
+      <field name="ordem" editable="1"/>
+      <field name="vertices" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="cobacia"/>
+      <field labelOnTop="0" name="cocdadesag"/>
+      <field labelOnTop="0" name="cocursodag"/>
+      <field labelOnTop="0" name="codom"/>
+      <field labelOnTop="0" name="corio"/>
+      <field labelOnTop="0" name="decorpodag"/>
+      <field labelOnTop="0" name="dedirec"/>
+      <field labelOnTop="0" name="dedominial"/>
+      <field labelOnTop="0" name="deligacao"/>
+      <field labelOnTop="0" name="norio"/>
+      <field labelOnTop="0" name="noriocomp"/>
+      <field labelOnTop="0" name="nuareabacc"/>
+      <field labelOnTop="0" name="nuareacont"/>
+      <field labelOnTop="0" name="nuareamont"/>
+      <field labelOnTop="0" name="nucompcda"/>
+      <field labelOnTop="0" name="nucomprio"/>
+      <field labelOnTop="0" name="nucomptrec"/>
+      <field labelOnTop="0" name="nudistbacc"/>
+      <field labelOnTop="0" name="nudistbacr"/>
+      <field labelOnTop="0" name="nudistbact"/>
+      <field labelOnTop="0" name="nudistcdag"/>
+      <field labelOnTop="0" name="nunivotcda"/>
+      <field labelOnTop="0" name="nunivotto"/>
+      <field labelOnTop="0" name="nuordemcda"/>
+      <field labelOnTop="0" name="nutrafl"/>
+      <field labelOnTop="0" name="nutrjus"/>
+      <field labelOnTop="0" name="nutrmon"/>
+      <field labelOnTop="0" name="ordem"/>
+      <field labelOnTop="0" name="vertices"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>vertices</previewExpression>
+     <mapTip/>
+     <layerGeometryType>1</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle layerid="nascentes_611b022c_4c9f_4a6d_8b21_1d21a53f7ac8" provider="ogr" source="C:/Users/m1467714/Documents/ZAP/Ribeirao_Vermelho/01_Delimitacao_e_hidrografia/01_nascentes.shp" name="Nascentes">
+    <qgis styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyLocal="1" version="3.4.9-Madeira" readOnly="0" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" simplifyDrawingTol="1">
+     <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+     </flags>
+     <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
+      <symbols>
+       <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="marker">
+        <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
+         <prop k="angle" v="0"/>
+         <prop k="color" v="135,197,255,255"/>
+         <prop k="horizontal_anchor_point" v="1"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="name" v="circle"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline_color" v="35,35,35,255"/>
+         <prop k="outline_style" v="solid"/>
+         <prop k="outline_width" v="0"/>
+         <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="scale_method" v="diameter"/>
+         <prop k="size" v="1.5"/>
+         <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+         <prop k="size_unit" v="MM"/>
+         <prop k="vertical_anchor_point" v="1"/>
+         <data_defined_properties>
+          <Option type="Map">
+           <Option name="name" value="" type="QString"/>
+           <Option name="properties"/>
+           <Option name="type" value="collection" type="QString"/>
+          </Option>
+         </data_defined_properties>
+        </layer>
+       </symbol>
+      </symbols>
+      <rotation/>
+      <sizescale/>
+     </renderer-v2>
+     <customproperties>
+      <property value="0" key="embeddedWidgets/count"/>
+      <property key="variableNames"/>
+      <property key="variableValues"/>
+     </customproperties>
+     <blendMode>0</blendMode>
+     <featureBlendMode>0</featureBlendMode>
+     <layerOpacity>1</layerOpacity>
+     <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+      <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" height="15" minScaleDenominator="0" sizeType="MM" barWidth="5" opacity="1" labelPlacementMethod="XHeight" backgroundAlpha="255" lineSizeType="MM" penWidth="0" enabled="0" scaleDependency="Area" penColor="#000000">
+       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+       <attribute color="#000000" label="" field=""/>
+      </DiagramCategory>
+     </SingleCategoryDiagramRenderer>
+     <DiagramLayerSettings obstacle="0" showAll="1" dist="0" placement="0" linePlacementFlags="18" zIndex="0" priority="0">
+      <properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </properties>
+     </DiagramLayerSettings>
+     <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <activeChecks/>
+      <checkConfiguration/>
+     </geometryOptions>
+     <fieldConfiguration>
+      <field name="id">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="x">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="y">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+      <field name="type">
+       <editWidget type="TextEdit">
+        <config>
+         <Option/>
+        </config>
+       </editWidget>
+      </field>
+     </fieldConfiguration>
+     <aliases>
+      <alias index="0" name="" field="id"/>
+      <alias index="1" name="" field="x"/>
+      <alias index="2" name="" field="y"/>
+      <alias index="3" name="" field="type"/>
+     </aliases>
+     <excludeAttributesWMS/>
+     <excludeAttributesWFS/>
+     <defaults>
+      <default applyOnUpdate="0" expression="" field="id"/>
+      <default applyOnUpdate="0" expression="" field="x"/>
+      <default applyOnUpdate="0" expression="" field="y"/>
+      <default applyOnUpdate="0" expression="" field="type"/>
+     </defaults>
+     <constraints>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="id"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="x"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="y"/>
+      <constraint exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0" field="type"/>
+     </constraints>
+     <constraintExpressions>
+      <constraint exp="" desc="" field="id"/>
+      <constraint exp="" desc="" field="x"/>
+      <constraint exp="" desc="" field="y"/>
+      <constraint exp="" desc="" field="type"/>
+     </constraintExpressions>
+     <expressionfields/>
+     <attributeactions>
+      <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+     </attributeactions>
+     <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <columns>
+       <column name="id" width="-1" hidden="0" type="field"/>
+       <column name="x" width="-1" hidden="0" type="field"/>
+       <column name="y" width="-1" hidden="0" type="field"/>
+       <column name="type" width="-1" hidden="0" type="field"/>
+       <column width="-1" hidden="1" type="actions"/>
+      </columns>
+     </attributetableconfig>
+     <conditionalstyles>
+      <rowstyles/>
+      <fieldstyles/>
+     </conditionalstyles>
+     <editform tolerant="1"/>
+     <editforminit/>
+     <editforminitcodesource>0</editforminitcodesource>
+     <editforminitfilepath/>
+     <editforminitcode><![CDATA[# -*- código: utf-8 -*-
+"""
+Formas QGIS podem ter uma função Python que é chamada quando o formulário é
+aberto.
+
+Use esta função para adicionar lógica extra para seus formulários.
+
+Digite o nome da função na "função Python Init"
+campo.
+Um exemplo a seguir:
+"""
+de qgis.PyQt.QtWidgets importar QWidget
+
+def my_form_open(diálogo, camada, feição):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+     <featformsuppress>0</featformsuppress>
+     <editorlayout>generatedlayout</editorlayout>
+     <editable>
+      <field name="id" editable="1"/>
+      <field name="type" editable="1"/>
+      <field name="x" editable="1"/>
+      <field name="y" editable="1"/>
+     </editable>
+     <labelOnTop>
+      <field labelOnTop="0" name="id"/>
+      <field labelOnTop="0" name="type"/>
+      <field labelOnTop="0" name="x"/>
+      <field labelOnTop="0" name="y"/>
+     </labelOnTop>
+     <widgets/>
+     <previewExpression>id</previewExpression>
+     <mapTip/>
+     <layerGeometryType>0</layerGeometryType>
+    </qgis>
+   </LayerStyle>
+  </LayerStyles>
+  <ComposerMapGrid gridFrameWidth="2" offsetX="0" show="1" bottomAnnotationDirection="0" blendMode="0" frameAnnotationDistance="1" leftAnnotationDisplay="0" gridFramePenThickness="0.29999999999999999" frameFillColor1="255,255,255,255" rightAnnotationPosition="1" topAnnotationDirection="0" rightFrameDivisions="0" showAnnotation="1" leftAnnotationDirection="1" rightAnnotationDirection="0" gridStyle="3" gridFrameStyle="4" bottomAnnotationDisplay="0" annotationFormat="0" leftFrameDivisions="0" topAnnotationPosition="1" leftAnnotationPosition="1" gridFrameSideFlags="15" frameFillColor2="0,0,0,255" intervalY="1500" annotationPrecision="0" annotationExpression="" unit="0" annotationFontColor="0,0,0,255" intervalX="1500" crossLength="3" name="Grade 1" topAnnotationDisplay="3" gridFramePenColor="0,0,0,255" bottomAnnotationPosition="1" topFrameDivisions="0" bottomFrameDivisions="0" uuid="{116a3588-1cb6-4eb1-9775-5c0685759f60}" rightAnnotationDisplay="3" offsetY="0">
+   <lineStyle>
+    <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="" type="line">
+     <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+      <prop k="capstyle" v="flat"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="draw_inside_polygon" v="0"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="line_color" v="0,0,0,255"/>
+      <prop k="line_style" v="solid"/>
+      <prop k="line_width" v="0.3"/>
+      <prop k="line_width_unit" v="MM"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="ring_filter" v="0"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <data_defined_properties>
+       <Option type="Map">
+        <Option value="" name="name" type="QString"/>
+        <Option name="properties"/>
+        <Option value="collection" name="type" type="QString"/>
+       </Option>
+      </data_defined_properties>
+     </layer>
+    </symbol>
+   </lineStyle>
+   <markerStyle>
+    <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="" type="marker">
+     <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
+      <prop k="angle" v="0"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="horizontal_anchor_point" v="1"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="name" v="circle"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="outline_color" v="35,35,35,255"/>
+      <prop k="outline_style" v="solid"/>
+      <prop k="outline_width" v="0"/>
+      <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="outline_width_unit" v="MM"/>
+      <prop k="scale_method" v="diameter"/>
+      <prop k="size" v="2"/>
+      <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="size_unit" v="MM"/>
+      <prop k="vertical_anchor_point" v="1"/>
+      <data_defined_properties>
+       <Option type="Map">
+        <Option value="" name="name" type="QString"/>
+        <Option name="properties"/>
+        <Option value="collection" name="type" type="QString"/>
+       </Option>
+      </data_defined_properties>
+     </layer>
+    </symbol>
+   </markerStyle>
+   <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+  </ComposerMapGrid>
+  <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+ </LayoutItem>
+ <customproperties>
+  <property value="png" key="atlasRasterFormat"/>
+  <property value="true" key="imageAntialias"/>
+  <property value="0" key="imageCropMarginBottom"/>
+  <property value="0" key="imageCropMarginLeft"/>
+  <property value="0" key="imageCropMarginRight"/>
+  <property value="0" key="imageCropMarginTop"/>
+  <property value="false" key="imageCropToContents"/>
+ </customproperties>
+ <Atlas pageNameExpression="" filterFeatures="0" enabled="0" filenamePattern="'output_'||@atlas_featurenumber" hideCoverage="0" sortFeatures="0" coverageLayer=""/>
+</Layout>
