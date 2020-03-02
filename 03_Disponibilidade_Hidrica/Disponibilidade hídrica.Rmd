@@ -186,6 +186,10 @@ tm_shape(ottoInteresse) + tm_polygons() +
 #writeOGR(outorgasBacia, ".", "outorgasBacia.shp", driver="ESRI Shapefile", encoding = 'UTF-8')
 ```
 
+### Conferir dados de outorga
+
+http://www.igam.mg.gov.br/outorga/sistema-de-consulta-e-decisoes-de-outorga
+
 ### Agrupa pela soma dados de outorga de uma ottobacia
 
 ```{r acumuladoOtto}
