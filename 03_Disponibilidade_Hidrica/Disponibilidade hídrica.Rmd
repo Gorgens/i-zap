@@ -1,5 +1,5 @@
 ---
-title: "Ribeir?o Santana"
+title: "Ribeirão Santana"
 author: "NEPZAP - UFVJM"
 date: "2/12/2020"
 output: html_document
@@ -14,9 +14,11 @@ require(tmap)
 require(sf)
 require(maptools)
 require(xlsx)
+require(knitr)
+
 ```
 
-## Disponibilidade h?drica
+## Disponibilidade hídrica
 
 ### Ajusta base de dados
 
@@ -173,6 +175,8 @@ tm_shape(ottoMerged) + tm_polygons() +
 outorgasBacia = union(wgs84_gmsBacia, sad69_gms2wgs84Bacia)
 outorgasBacia = union(outorgasBacia, wgs84_utm2gmsBacia)
 outorgasBacia = union(outorgasBacia, sad69_utm2gmsBacia)
+outorgasBacia = outorgasBacia[c('Processo.Outorga' , 'Portaria', 'Data.de.Vencimento.da.Portaria', 'Status.Processo', 'Tipo', 'CPF_CNPJ.Empreendedor')]
+outorgasBacia$Vazao.Captada = 1
 
 ottoInteresse = shapefile('../01_Delimitacao_e_Hidrografia/02_ottoBacia_Interesse.shp')
 proj4string(ottoInteresse) = CRS("+init=epsg:4326")
@@ -184,6 +188,15 @@ tm_shape(ottoInteresse) + tm_polygons() +
                 projection = "+proj=longlat", col = 'gray')
 
 #writeOGR(outorgasBacia, ".", "outorgasBacia.shp", driver="ESRI Shapefile", encoding = 'UTF-8')
+```
+
+
+```{r tabelaOutorgas}
+
+knitr::kable(
+  outorgasBacia@data, caption = 'Outorgas dentro da bacia.'
+)
+
 ```
 
 ### Conferir dados de outorga
@@ -198,7 +211,7 @@ getOttoId = over(outorgasBacia, ottoInteresse)
 outorgasBacia$id = getOttoId$id
 VazaoOtto = outorgasBacia@data %>%
         group_by(id) %>%
-        summarise(VazaoAcum = sum(Vazao.Jan))
+        summarise(VazaoAcum = sum(Vazao.Captada))
 
 ottoInteresse = merge(ottoInteresse, VazaoOtto, by='id')
 
