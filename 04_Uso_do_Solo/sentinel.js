@@ -1,3 +1,6 @@
+var center = /* color: #d63000 */ee.Geometry.Point([-43.22156204898374, -18.06797432111501]),
+    bacia = ee.FeatureCollection("users/egorgens/zap/ribeiraoSantana");
+	
 var sentinel = ee.ImageCollection("COPERNICUS/S2_SR")
   .filterMetadata('CLOUDY_PIXEL_PERCENTAGE', 'less_than', 10)
   .filterBounds(bacia)
@@ -7,18 +10,18 @@ var sentinel = ee.ImageCollection("COPERNICUS/S2_SR")
 
 var clipped = sentinel.clip(bacia);
 Map.centerObject(center, 14);
-// Map.addLayer(clipped,                                             // Adiciona camada no canvas
-//   {bands:['B4', 'B3', 'B2'], min:100, max:800}, 
-//   'Sentinel'); 
+Map.addLayer(clipped,                                             // Adiciona camada no canvas
+  {bands:['B4', 'B3', 'B2'], min:100, max:800}, 
+  'Sentinel'); 
 
 var b4 = clipped.select('B4');
-// Export.image.toDrive({
-//   image: b4,
-//   description: 'sentinel_2017_2019_b4',
-//   scale: 10,
-//   region: bacia,
-//   folder: 'export_zap'
-// });	
+Export.image.toDrive({
+  image: b4,
+  description: 'sentinel_2017_2019_b4',
+  scale: 10,
+  region: bacia,
+  folder: 'export_zap'
+});	
 
 var b2 = clipped.select('B2');
 Export.image.toDrive({
