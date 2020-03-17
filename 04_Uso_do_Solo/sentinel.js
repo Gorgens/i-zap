@@ -1,3 +1,7 @@
+// Script criado pelo Prof. Eric Bastos Gorgens - UFVJM
+// Criação de imagem sentinel RGB + IR para bacia de interesse, e período de interesse
+// Licensa uso Creative Commons - Atribuição-CompartilhaIgual 4.0 Internacional
+
 var center = /* color: #d63000 */ee.Geometry.Point([-43.22156204898374, -18.06797432111501]),
     bacia = ee.FeatureCollection("users/egorgens/zap/ribeiraoSantana");
 	
