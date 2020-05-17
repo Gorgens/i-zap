@@ -48,10 +48,10 @@ otto.setSubsetString("cocursodag LIKE '"+str(CODRIO)+"%'")
 QgsVectorFileWriter.writeAsVectorFormat(otto, OUTPATH+'ottoInteresse.shp', "utf-8", otto.crs(), "ESRI Shapefile")
 
 ### Criar limites da bacia
-processing.run("native:dissolve", {\
-'INPUT':OUTPATH+'ottoInteresse.shp',\
-'FIELD':[],\
-'OUTPUT':OUTPATH+'limiteBacia.shp'})
+(processing.run("native:dissolve", {
+    'INPUT':OUTPATH+'ottoInteresse.shp',
+    'FIELD':[],
+    'OUTPUT':OUTPATH+'limiteBacia.shp'}))
 
 
 ##QgsProject.instance().addMapLayer(dtmlayer)
