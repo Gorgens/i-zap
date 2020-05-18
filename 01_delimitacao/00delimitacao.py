@@ -1,4 +1,4 @@
-#exec(open("/sysroot/home/eric/Documentos/Base de dados ZAP/delimitacao.py").read())
+#exec(open("/sysroot/home/eric/Github/i_zap/01_delimitacao/00delimitacao.py").read())
 
 import processing
 import subprocess
@@ -7,16 +7,16 @@ from osgeo import ogr
 
 ### Define variáveis do ambiente  ------------------------------
 
-#VAZPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip 2406 reg vazao/'
-VAZPATH = 'C:/Users/gorge/Documents/GIS DataBase/izap input/'
+VAZPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip 2406 reg vazao/'
+#VAZPATH = 'C:/Users/gorge/Documents/GIS DataBase/izap input/'
 VAZFILE = '2406_JQ_Igam_UFV_reg_vazao_lin.shp'
 
-#OTTOPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip 0102 ottobacias/'
-OTTOPATH = 'C:/Users/gorge/Documents/GIS DataBase/izap input/'
+OTTOPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip 0102 ottobacias/'
+#OTTOPATH = 'C:/Users/gorge/Documents/GIS DataBase/izap input/'
 OTTOFILE = '0102_jq_otto_bacia_pol.shp'
 
-#OUTPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip output/'
-OUTPATH = 'C:/Users/gorge/Documents/GitHub/i_zap/01_delimitacao/'
+OUTPATH = '/sysroot/home/eric/Github/i_zap/01_delimitacao/'
+#OUTPATH = 'C:/Users/gorge/Documents/GitHub/i_zap/01_delimitacao/'
 CRS = QgsCoordinateReferenceSystem(4326, QgsCoordinateReferenceSystem.PostgisCrsId)
 CODRIO = "7582998"
 
