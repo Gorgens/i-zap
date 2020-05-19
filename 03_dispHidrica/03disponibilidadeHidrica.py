@@ -1,15 +1,24 @@
 #!/usr/bin/env python
 # coding: utf-8
+#exec(open("/sysroot/home/eric/Github/i_zap/03_dispHidrica/03disponibilidadeHidrica.py").read())
 
+import processing
+import subprocess
+import os
+from osgeo import ogr
 import pandas as pd
 import numpy as np
 import re
 
-InDrPth='C:/Users/gorge/Documents/GitHub/i_zap/03_dispHidrica/'
-CRS = QgsCoordinateReferenceSystem(4326, QgsCoordinateReferenceSystem.PostgisCrsId)
-csv = 'OutorgasFelicioDosSantos.csv'
+DISP_PATH='/sysroot/home/eric/Github/i_zap/03_dispHidrica/'
+LIM_PATH='/sysroot/home/eric/Github/i_zap/01_delimitacao/'
+CSV = DISP_PATH+'OutorgasFelicioDosSantos.csv'
+EPSG = 4326
 
-df = pd.read_csv(InDrPth+csv, encoding='latin-1')
+CRS = QgsCoordinateReferenceSystem(EPSG, QgsCoordinateReferenceSystem.PostgisCrsId)
+
+print('Cleaning.... limpando arquivo com as outorgas!')
+df = pd.read_csv(CSV, encoding='latin-1')
 df.rename(columns={'Portaria':'portaria',
     'Data de Publicação': 'publicacao',
     'Data de Vencimento da Portaria': 'vencimento',
@@ -180,43 +189,60 @@ wgs84scg = outorga[(outorga['datum'] == 'WGS84')].dropna(subset=['latDec'])
 #print(wgs84scg.shape)
 #print(wgs84scg.head())
 
-sad69scg.to_csv(InFlPth+'sad69scg.csv', index=False, sep = ',')
-wgs84scg.to_csv(InFlPth+'wgs84scg.csv', index=False, sep = ',')
-sad69utm.to_csv(InFlPth+'sad69utm.csv', index=False, sep = ',')
-wgs84utm.to_csv(InFlPth+'wgs84utm.csv', index=False, sep = ',')
+sad69scg.to_csv(DISP_PATH+'sad69scg.csv', index=False, sep = ',')
+wgs84scg.to_csv(DISP_PATH+'wgs84scg.csv', index=False, sep = ',')
+sad69utm.to_csv(DISP_PATH+'sad69utm.csv', index=False, sep = ',')
+wgs84utm.to_csv(DISP_PATH+'wgs84utm.csv', index=False, sep = ',')
+print('Cleaning.... done!')
 
-InFlPth="file:///"+InDrPth+'sad69scg.csv'
-uri = InFlPth+"?delimiter=%s&crs=epsg:4291&xField=%s&yField=%s" % (",","longDec","latDec")
+print('Importing.... outorgas por projeção!')
+uri = "file:///"+DISP_PATH+'sad69scg.csv'+"?delimiter=%s&crs=epsg:4291&xField=%s&yField=%s" % (",","longDec","latDec")
 sad69scgLayer = QgsVectorLayer(uri, 'sad69scg', "delimitedtext")
 #sad69scgLayer.dataProvider().setEncoding(u'ISO-8859-1')
 #QgsProject.instance().addMapLayer(sad69scgLayer)
-QgsVectorFileWriter.writeAsVectorFormat(sad69scgLayer, InDrPth+'sad69scg.shp', "utf-8", CRS, "ESRI Shapefile")
+QgsVectorFileWriter.writeAsVectorFormat(sad69scgLayer, DISP_PATH+'sad69scg.shp', "utf-8", CRS, "ESRI Shapefile")
 
-InFlPth="file:///"+InDrPth+'wgs84scg.csv'
-uri = InFlPth+"?delimiter=%s&crs=epsg:4326&xField=%s&yField=%s" % (",","longDec","latDec")
+uri = "file:///"+DISP_PATH+'wgs84scg.csv'+"?delimiter=%s&crs=epsg:4326&xField=%s&yField=%s" % (",","longDec","latDec")
 wgs84scgLayer = QgsVectorLayer(uri, 'wgs84scg', "delimitedtext")
 #QgsProject.instance().addMapLayer(wgs84scgLayer)
-QgsVectorFileWriter.writeAsVectorFormat(wgs84scgLayer, InDrPth+'wgs84scg.shp', "utf-8", CRS, "ESRI Shapefile")
+QgsVectorFileWriter.writeAsVectorFormat(wgs84scgLayer, DISP_PATH+'wgs84scg.shp', "utf-8", CRS, "ESRI Shapefile")
 
-InFlPth="file:///"+InDrPth+'sad69utm.csv'
-uri = InFlPth+"?delimiter=%s&crs=epsg:29183&xField=%s&yField=%s" % (",","utmX","utmY")
+uri = "file:///"+DISP_PATH+'sad69utm.csv'+"?delimiter=%s&crs=epsg:29183&xField=%s&yField=%s" % (",","utmX","utmY")
 sad69utmLayer = QgsVectorLayer(uri, 'sad69utm', "delimitedtext")
 #sad69utmLayer.dataProvider().setEncoding(u'ISO-8859-1')
 #QgsProject.instance().addMapLayer(sad69utmLayer)
-QgsVectorFileWriter.writeAsVectorFormat(sad69utmLayer, InDrPth+'sad69utm.shp', "utf-8", CRS, "ESRI Shapefile")
+QgsVectorFileWriter.writeAsVectorFormat(sad69utmLayer, DISP_PATH+'sad69utm.shp', "utf-8", CRS, "ESRI Shapefile")
 
-InFlPth="file:///"+InDrPth+'wgs84utm.csv'
-uri = InFlPth+"?delimiter=%s&crs=epsg:32723&xField=%s&yField=%s" % (",","utmX","utmY")
+uri = "file:///"+DISP_PATH+'wgs84utm.csv'+"?delimiter=%s&crs=epsg:32723&xField=%s&yField=%s" % (",","utmX","utmY")
 wgs84utmLayer = QgsVectorLayer(uri, 'wgs84utm', "delimitedtext")
 #wgs84utmLayer.dataProvider().setEncoding(u'ISO-8859-1')
 #QgsProject.instance().addMapLayer(wgs84utmLayer)
-QgsVectorFileWriter.writeAsVectorFormat(wgs84utmLayer, InDrPth+'wgs84utm.shp', "utf-8", CRS, "ESRI Shapefile")
+QgsVectorFileWriter.writeAsVectorFormat(wgs84utmLayer, DISP_PATH+'wgs84utm.shp', "utf-8", CRS, "ESRI Shapefile")
+print('Importing.... done!')
 
+print('Merging.... outorgas!')
 processing.run("saga:mergevectorlayers", {
-    'INPUT':[InDrPth+'sad69scg.shp',
-        InDrPth+'sad69utm.shp',
-        InDrPth+'wgs84scg.shp',
-        InDrPth+'wgs84utm.shp'],
+    'INPUT':[DISP_PATH+'sad69scg.shp',
+        DISP_PATH+'sad69utm.shp',
+        DISP_PATH+'wgs84scg.shp',
+        DISP_PATH+'wgs84utm.shp'],
     'SRCINFO':True,
     'MATCH':True,
-    'MERGED':InDrPth+'outorgas.shp'})
+    'MERGED':DISP_PATH+'outorgas.shp'})
+print('Merging.... done!')
+
+print('Cliping.... outorgas dentro da bacia!')
+(processing.run("native:clip", {
+    'INPUT':DISP_PATH+'outorgas.shp',
+    'OVERLAY':LIM_PATH+'limiteBacia.shp',
+    'OUTPUT':DISP_PATH+'outorgasBacia.shp'
+}))
+print('Cliping.... done!')
+
+outorgasBacia = QgsVectorLayer(DISP_PATH+'outorgasBacia.shp', "Outorgas bacia", 'ogr')
+outorgasBacia.setCrs(CRS)
+QgsProject.instance().addMapLayer(outorgasBacia)
+outorgasBacia.dataProvider().addAttributes( [ QgsField("captacao", QVariant.Double) ] )
+outorgasBacia.updateFields()
+
+print('Atualize manualmente o campo captacao.')
