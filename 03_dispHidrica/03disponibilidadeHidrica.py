@@ -17,7 +17,7 @@ EPSG = 4326
 
 CRS = QgsCoordinateReferenceSystem(EPSG, QgsCoordinateReferenceSystem.PostgisCrsId)
 
-print('Cleaning.... limpando arquivo com as outorgas!')
+print('Cleaning: limpando arquivo com as outorgas!')
 df = pd.read_csv(CSV, encoding='latin-1')
 df.rename(columns={'Portaria':'portaria',
     'Data de Publicação': 'publicacao',
@@ -193,9 +193,9 @@ sad69scg.to_csv(DISP_PATH+'sad69scg.csv', index=False, sep = ',')
 wgs84scg.to_csv(DISP_PATH+'wgs84scg.csv', index=False, sep = ',')
 sad69utm.to_csv(DISP_PATH+'sad69utm.csv', index=False, sep = ',')
 wgs84utm.to_csv(DISP_PATH+'wgs84utm.csv', index=False, sep = ',')
-print('Cleaning.... done!')
+print('Cleaning done!')
 
-print('Importing.... outorgas por projeção!')
+print('Importing: outorgas por projeção!')
 uri = "file:///"+DISP_PATH+'sad69scg.csv'+"?delimiter=%s&crs=epsg:4291&xField=%s&yField=%s" % (",","longDec","latDec")
 sad69scgLayer = QgsVectorLayer(uri, 'sad69scg', "delimitedtext")
 #sad69scgLayer.dataProvider().setEncoding(u'ISO-8859-1')
@@ -218,9 +218,9 @@ wgs84utmLayer = QgsVectorLayer(uri, 'wgs84utm', "delimitedtext")
 #wgs84utmLayer.dataProvider().setEncoding(u'ISO-8859-1')
 #QgsProject.instance().addMapLayer(wgs84utmLayer)
 QgsVectorFileWriter.writeAsVectorFormat(wgs84utmLayer, DISP_PATH+'wgs84utm.shp', "utf-8", CRS, "ESRI Shapefile")
-print('Importing.... done!')
+print('Importing done!')
 
-print('Merging.... outorgas!')
+print('Merging: outorgas!')
 processing.run("saga:mergevectorlayers", {
     'INPUT':[DISP_PATH+'sad69scg.shp',
         DISP_PATH+'sad69utm.shp',
@@ -229,15 +229,15 @@ processing.run("saga:mergevectorlayers", {
     'SRCINFO':True,
     'MATCH':True,
     'MERGED':DISP_PATH+'outorgas.shp'})
-print('Merging.... done!')
+print('Merging done!')
 
-print('Cliping.... outorgas dentro da bacia!')
+print('Cliping: outorgas dentro da bacia!')
 (processing.run("native:clip", {
     'INPUT':DISP_PATH+'outorgas.shp',
     'OVERLAY':LIM_PATH+'limiteBacia.shp',
     'OUTPUT':DISP_PATH+'outorgasBacia.shp'
 }))
-print('Cliping.... done!')
+print('Cliping done!')
 
 outorgasBacia = QgsVectorLayer(DISP_PATH+'outorgasBacia.shp', "Outorgas bacia", 'ogr')
 outorgasBacia.setCrs(CRS)
@@ -245,4 +245,4 @@ QgsProject.instance().addMapLayer(outorgasBacia)
 outorgasBacia.dataProvider().addAttributes( [ QgsField("captacao", QVariant.Double) ] )
 outorgasBacia.updateFields()
 
-print('Atualize manualmente o campo captacao.')
+print('Atualize manualmente o campo [captacao].')
