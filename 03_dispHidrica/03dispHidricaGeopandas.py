@@ -216,7 +216,6 @@ wgs84utmLayer.plot(ax=base4, marker='o', color = 'black')
 plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas.png')
 
 # print('Merging: outorgas!')
-
 gdf = gpd.GeoDataFrame(pd.concat([gdf1, gdf2, gdf3]))
 # processing.run("saga:mergevectorlayers", {
 #     'INPUT':[DISP_PATH+'sad69scg.shp',
