@@ -215,25 +215,24 @@ wgs84utmLayer = wgs84utmLayer.to_crs('EPSG:4326')
 wgs84utmLayer.plot(ax=base4, marker='o', color = 'black')
 plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas.png')
 
-# print('Merging: outorgas!')
-gdf = gpd.GeoDataFrame(pd.concat([gdf1, gdf2, gdf3]))
-# processing.run("saga:mergevectorlayers", {
-#     'INPUT':[DISP_PATH+'sad69scg.shp',
-#         DISP_PATH+'sad69utm.shp',
-#         DISP_PATH+'wgs84scg.shp',
-#         DISP_PATH+'wgs84utm.shp'],
-#     'SRCINFO':True,
-#     'MATCH':True,
-#     'MERGED':DISP_PATH+'outorgas.shp'})
-# print('Merging done!')
-#
-# print('Cliping: outorgas dentro da bacia!')
+print('Merging: outorgas!')
+outorgaslayer = pd.concat([sad69scgLayer, wgs84scgLayer, sad69utmLayer, wgs84utmLayer])
+outorgaslayer.plot(ax=base1, marker='o', color = 'black')
+plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas2.png')
+print('Merging done!')
+
+
+print('Cliping: outorgas dentro da bacia!')
+outorgasBacia = gp.clip(outorgaslayer, bacia)
+outorgasBacia.plot(ax=base1, marker='o', color='black')
+plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas3.png')
+
 # (processing.run("native:clip", {
 #     'INPUT':DISP_PATH+'outorgas.shp',
 #     'OVERLAY':LIM_PATH+'limiteBacia.shp',
 #     'OUTPUT':DISP_PATH+'outorgasBacia.shp'
 # }))
-# print('Cliping done!')
+print('Cliping done!')
 #
 # outorgasBacia = QgsVectorLayer(DISP_PATH+'outorgasBacia.shp', "Outorgas bacia", 'ogr')
 # outorgasBacia.setCrs(CRS)
