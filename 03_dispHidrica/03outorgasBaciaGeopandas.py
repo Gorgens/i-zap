@@ -1,13 +1,16 @@
 import pandas as pd
 import geopandas as gp
-import numpy as np
 import matplotlib.pyplot as plt
-import descartes
 
-DISPPATH='/sysroot/home/eric/Github/i_zap/03_dispHidrica/'
-LIMPATH='/sysroot/home/eric/Github/i_zap/01_delimitacao/'
-CSV = '/sysroot/home/eric/Github/i_zap/03_dispHidrica/OutorgasFelicioDosSantos.csv'
-EPSG = 4326
+DISPPATH='/home/gorgens/Github/i_zap/03_dispHidrica/'
+CSV = '/home/gorgens/Github/i_zap/03_dispHidrica/OutorgasFelicioDosSantos.csv'
+PLOT = True
+
+BACIA = gp.read_file("/home/gorgens/Github/i_zap/zapRibSantana.gpkg", layer='bacia')
+#BACIA.crs = {'init': 'epsg:4326'}
+BACIA.crs = 'epsg:4326'
+if PLOT:
+    base1 = BACIA.plot(color='white', edgecolor='black')
 
 print('Cleaning: limpando arquivo com as outorgas!')
 df = pd.read_csv(CSV, encoding='latin-1')
@@ -187,57 +190,54 @@ sad69utm.to_csv(DISPPATH+'sad69utm.csv', index=False, sep = ',')
 wgs84utm.to_csv(DISPPATH+'wgs84utm.csv', index=False, sep = ',')
 print('Cleaning done!')
 
-# print('Importing: outorgas por projeção!')
-bacia = gp.read_file("/sysroot/home/eric/Github/i_zap/01_delimitacao/delimitacao.gpkg", layer='bacia')
-base1 = bacia.plot(color='white', edgecolor='black')
-
+print('Importing: outorgas por projeção!')
 sad69scg = pd.read_csv(DISPPATH+'sad69scg.csv')
 sad69scgLayer = gp.GeoDataFrame(sad69scg, geometry=gp.points_from_xy(sad69scg.longDec, sad69scg.latDec))
-sad69scgLayer.crs = 'EPSG:4291'
-sad69scgLayer = sad69scgLayer.to_crs('EPSG:4326')
-base2 = sad69scgLayer.plot(ax=base1, marker='o', color = 'red')
+#sad69scgLayer.crs = {'init': 'epsg:4291'}
+sad69scgLayer.crs = 'epsg:4291'
+#sad69scgLayer = sad69scgLayer.to_crs({'init': 'epsg:4326'})
+sad69scgLayer = sad69scgLayer.to_crs('epsg:4326')
+
 
 wgs84scg = pd.read_csv(DISPPATH+'wgs84scg.csv')
 wgs84scgLayer = gp.GeoDataFrame(wgs84scg, geometry=gp.points_from_xy(wgs84scg.longDec, wgs84scg.latDec))
-wgs84scgLayer.crs = 'EPSG:4326'
-base3 = wgs84scgLayer.plot(ax=base2, marker='o', color = 'blue')
+#wgs84scgLayer.crs = {'init': 'epsg:4326'}
+wgs84scgLayer.crs = 'epsg:4326'
 
 sad69utm = pd.read_csv(DISPPATH+'sad69utm.csv')
 sad69utmLayer = gp.GeoDataFrame(sad69utm, geometry=gp.points_from_xy(sad69utm.utmX, sad69utm.utmY))
-sad69utmLayer.crs = 'EPSG:29183'
-sad69utmLayer = sad69utmLayer.to_crs('EPSG:4326')
-base4 = sad69utmLayer.plot(ax=base3, marker='o', color = 'green')
+#sad69utmLayer.crs = {'init': 'epsg:29183'}
+sad69utmLayer.crs = 'epsg:29183'
+#sad69utmLayer = sad69utmLayer.to_crs({'init': 'epsg:4326'})
+sad69utmLayer = sad69utmLayer.to_crs('epsg:4326')
 
 wgs84utm = pd.read_csv(DISPPATH+'wgs84utm.csv')
 wgs84utmLayer = gp.GeoDataFrame(wgs84utm, geometry=gp.points_from_xy(wgs84utm.utmX, wgs84utm.utmY))
-wgs84utmLayer.crs = 'EPSG:32723'
-wgs84utmLayer = wgs84utmLayer.to_crs('EPSG:4326')
-wgs84utmLayer.plot(ax=base4, marker='o', color = 'black')
-plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas.png')
+#wgs84utmLayer.crs = {'init': 'epsg:32723'}
+wgs84utmLayer.crs = 'epsg:32723'
+#wgs84utmLayer = wgs84utmLayer.to_crs({'init': 'epsg:4326'})
+wgs84utmLayer = wgs84utmLayer.to_crs('epsg:4326')
+# if PLOT:
+#     wgs84utmLayer.plot(ax=base4, marker='o', color = 'black')
+#     plt.savefig('/home/gorgens/Github/i_zap/03_dispHidrica/outorgas.png')
 
 print('Merging: outorgas!')
 outorgaslayer = pd.concat([sad69scgLayer, wgs84scgLayer, sad69utmLayer, wgs84utmLayer])
-outorgaslayer.plot(ax=base1, marker='o', color = 'black')
-plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas2.png')
+outorgaslayer.crs = 'epsg:4326'
+outorgaslayer.to_file("/home/gorgens/Github/i_zap/zapRibSantana.gpkg", layer='outorgas', driver="GPKG")
 print('Merging done!')
 
 
-print('Cliping: outorgas dentro da bacia!')
-outorgasBacia = gp.clip(outorgaslayer, bacia)
-outorgasBacia.plot(ax=base1, marker='o', color='black')
-plt.savefig('/sysroot/home/eric/Github/i_zap/03_dispHidrica/outorgas3.png')
+print('Marking: outorgas dentro da bacia!')
+outorgasBacia = gp.sjoin(outorgaslayer, BACIA, how="inner", op='intersects')
+outorgasBacia['captacao'] = 0
+#print(temp.head())
 
-# (processing.run("native:clip", {
-#     'INPUT':DISP_PATH+'outorgas.shp',
-#     'OVERLAY':LIM_PATH+'limiteBacia.shp',
-#     'OUTPUT':DISP_PATH+'outorgasBacia.shp'
-# }))
-print('Cliping done!')
-#
-# outorgasBacia = QgsVectorLayer(DISP_PATH+'outorgasBacia.shp', "Outorgas bacia", 'ogr')
-# outorgasBacia.setCrs(CRS)
-# QgsProject.instance().addMapLayer(outorgasBacia)
-# outorgasBacia.dataProvider().addAttributes( [ QgsField("captacao", QVariant.Double) ] )
-# outorgasBacia.updateFields()
-#
-# print('Atualize manualmente o campo [captacao].')
+if PLOT:
+    outorgasBacia.plot(ax=base1, marker='o', color = 'black')
+    plt.savefig('/home/gorgens/Github/i_zap/03_dispHidrica/outorgasBacia.png')
+
+outorgasBacia.to_file("/home/gorgens/Github/i_zap/zapRibSantana.gpkg", layer='outorgasBacia', driver="GPKG")
+print('Marking done!')
+
+print('Atualize manualmente o campo [captacao].')

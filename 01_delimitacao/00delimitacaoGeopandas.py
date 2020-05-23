@@ -6,14 +6,15 @@ import descartes
 
 ### Define variáveis do ambiente  ------------------------------
 
-VAZPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip 2406 reg vazao/'
+VAZPATH = '/home/gorgens/Github/i_zap_input/'
 VAZFILE = '2406_JQ_Igam_UFV_reg_vazao_lin.shp'
 
-OTTOPATH = '/sysroot/home/eric/Documentos/Base de dados ZAP/zip 0102 ottobacias/'
+OTTOPATH = '/home/gorgens/Github/i_zap_input/'
 OTTOFILE = '0102_jq_otto_bacia_pol.shp'
 
 EPSG = 4326
 CODRIO = "7582998"
+PLOT = True
 
 hidrico = gp.read_file(VAZPATH+VAZFILE, encoding='ISO-8859-1')
 hidrico.crs = 'EPSG:'+str(EPSG)
@@ -26,8 +27,9 @@ hidrico.crs = 'EPSG:'+str(EPSG)
 #    print(type(col))
 
 hidricoInteresse = hidrico[hidrico['cocursodag'].str.contains(CODRIO)]
-hidricoInteresse.plot()
-plt.savefig('/sysroot/home/eric/Github/i_zap/01_delimitacao/hidrico.png')
+if PLOT:
+    hidricoInteresse.plot()
+    plt.savefig('/home/gorgens/Github/i_zap/01_delimitacao/hidrico.png')
 # for col in hidricoInteresse.columns:
 #     print(col)
 
@@ -44,16 +46,18 @@ otto = gp.read_file(OTTOPATH+OTTOFILE)
 otto.crs = 'EPSG:'+str(EPSG)
 
 ottoInteresse = otto[otto['cocursodag'].str.contains('^'+CODRIO)]
-ottoInteresse.plot()
-plt.savefig('/sysroot/home/eric/Github/i_zap/01_delimitacao/otto.png')
+if PLOT:
+    ottoInteresse.plot()
+    plt.savefig('/home/gorgens/Github/i_zap/01_delimitacao/otto.png')
 
 ottoClean = ottoInteresse[['nunivotto3', 'geometry']]
 bacia = ottoClean.dissolve(by='nunivotto3')
-bacia.plot()
-plt.savefig('/sysroot/home/eric/Github/i_zap/01_delimitacao/bacia.png')
+if PLOT:
+    bacia.plot()
+    plt.savefig('/home/gorgens/Github/i_zap/01_delimitacao/bacia.png')
 
-hidricoInteresse.to_file("/sysroot/home/eric/Github/i_zap/01_delimitacao/delimitacao.gpkg", layer='redeHidro', driver="GPKG")
-ottoInteresse.to_file("/sysroot/home/eric/Github/i_zap/01_delimitacao/delimitacao.gpkg", layer='ottobacias', driver="GPKG")
-bacia.to_file("/sysroot/home/eric/Github/i_zap/01_delimitacao/delimitacao.gpkg", layer='bacia', driver="GPKG")
+hidricoInteresse.to_file("/home/gorgens/Github/i_zap/zapRibSantana.gpkg", layer='redeHidro', driver="GPKG")
+ottoInteresse.to_file("/home/gorgens/Github/i_zap/zapRibSantana.gpkg", layer='ottobacias', driver="GPKG")
+bacia.to_file("/home/gorgens/Github/i_zap/zapRibSantana.gpkg", layer='bacia', driver="GPKG")
 
 
