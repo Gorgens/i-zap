@@ -230,7 +230,7 @@ print('Merging done!')
 
 print('Marking: outorgas dentro da bacia!')
 outorgasBacia = gp.sjoin(outorgaslayer, BACIA, how="inner", op='intersects')
-outorgasBacia['captacao'] = 0
+outorgasBacia['captacao'] = 0.5/1000
 #print(temp.head())
 
 if PLOT:
