@@ -1,11 +1,11 @@
----
-title: "Ribeirão Santana"
-author: "NEPZAP - UFVJM"
-date: "2/12/2020"
-output: html_document
----
+## ---
+## title: "Disponibilidade Hidrica"
+## author: "Eric Gorgens - NEPZAP/UFVJM"
+## date: "17/02/2020"
+## source("C:/Users/gorge/Documents/GitHub/i-zap/zap_dh2_dispHidrica.R")
+## ---
 
-```{r setup, echo=FALSE, message=FALSE}
+
 require(tidyverse)
 require(raster)
 require(leaflet)
@@ -16,15 +16,14 @@ require(maptools)
 require(xlsx)
 require(knitr)
 
-```
+setwd('C:/Users/gorge/Documents/GitHub/i-zap/')
+
 
 ## Disponibilidade hídrica
 
 ### Ajusta base de dados
 
-```{r importaOutorgas}
-
-outorgas = read.xlsx("./Outorgas_FelicioDosSantos.xlsx", 1, encoding="UTF-8")
+outorgas = read.xlsx("./input/Outorgas_FelicioDosSantos.xlsx", 1, encoding="UTF-8")
 
 outorgas$Latitude.Grau = as.numeric(gsub("º","", outorgas$Latitude.Grau))
 outorgas$Latitude.Minutos = as.numeric(gsub("´","", outorgas$Latitude.Minutos))
@@ -48,11 +47,9 @@ outorgas$Lat = -1 * (outorgas$Latitude.Grau + outorgas$Latitude.Minutos/60 + out
 outorgas$Data.de.Publicação = as.Date(outorgas$Data.de.Publicação, "%d/%m/%Y")
 outorgas$Data.de.Vencimento.da.Portaria = as.Date(outorgas$Data.de.Vencimento.da.Portaria, "%d/%m/%Y")
 
-```
 
 ### Filtra base de dados por data e por tipo de outorga
 
-```{r separaOutorgas}
 superficial = dplyr::filter(outorgas, grepl('Superficial', Tipo))
 superficial = distinct(superficial)
 superficialCaptacao = dplyr::filter(superficial, !grepl('TRAVESSIA', Modo.de.Uso))
@@ -64,11 +61,9 @@ deferida = dplyr::filter(recentes, grepl('OUTORGA DEFERIDA', Status.Processo))
 efetivado = dplyr::filter(recentes, grepl('CADASTRO EFETIVADO', Status.Processo))
 
 uteis = rbind(renovada, deferida, efetivado)
-```
 
 ### Separa dados em WGS84 GMS e filtra pontos dentro da bacia
 
-```{r outorgasWgs84Gsm}
 wgs84_gms = filter(uteis, uteis$DATUM == "WGS84" & is.na(uteis$UTM.X))
 coordinates(wgs84_gms) = ~Long+Lat
 proj4string(wgs84_gms) = CRS("+init=epsg:4326")
@@ -80,9 +75,7 @@ tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(wgs84_gms) + tm_dots("blue") +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
-```
 
-```{r outorgasWgs84GmsBacias}
 wgs84_gmsBacia = raster::intersect(wgs84_gms, ottoMerged)
 
 if(length(wgs84_gmsBacia) != 0) {
@@ -91,11 +84,9 @@ if(length(wgs84_gmsBacia) != 0) {
           tm_grid(labels.inside.frame = FALSE, 
                   projection = "+proj=longlat", col = 'gray')
 }
-```
 
 ### Separa dados em SAD69 GMS, converte para WGS84 e filtra pontos dentro da bacia
 
-```{r outorgasSad69Gms}
 sad69_gms = filter(uteis, uteis$DATUM == "SAD 69" & is.na(uteis$UTM.X))
 coordinates(sad69_gms) <- ~Long+Lat
 proj4string(sad69_gms) <- CRS("+init=epsg:4618")
@@ -105,9 +96,7 @@ tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(sad69_gms) + tm_dots("blue") +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
-```
 
-```{r outorgasSad69GmsBacias}
 sad69_gms2wgs84Bacia = raster::intersect(sad69_gms2wgs84, ottoMerged)
 
 if(length(sad69_gms2wgs84Bacia) != 0) {
@@ -116,11 +105,9 @@ if(length(sad69_gms2wgs84Bacia) != 0) {
           tm_grid(labels.inside.frame = FALSE, 
                   projection = "+proj=longlat", col = 'gray')
 }
-```
 
 ### Separa dados em WGS84m UTM, converte para WGS84 e filtra pontos dentro da bacia
 
-```{r outorgasWgs84Utm}
 wgs84_utm = filter(uteis, uteis$DATUM == "WGS84" & !is.na(uteis$UTM.X))
 coordinates(wgs84_utm) <- ~UTM.X+UTM.Y
 proj4string(wgs84_utm) <- CRS("+init=epsg:32723")  
@@ -130,9 +117,7 @@ tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(wgs84_utm2gms) + tm_dots("blue") +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
-```
 
-```{r outorgasWgs84UtmBacias}
 wgs84_utm2gmsBacia = raster::intersect(wgs84_utm2gms, ottoMerged)
 
 if(length(wgs84_utm2gmsBacia) != 0) {
@@ -141,11 +126,9 @@ tm_shape(ottoMerged) + tm_polygons() +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
 }
-```
 
 ### Separa dados em SAD69 UTM, converte para WGS84 e filtra pontos dentro da bacia
 
-```{r outorgasSad69Utm}
 sad69_utm = filter(uteis, uteis$DATUM == "SAD 69" & !is.na(uteis$UTM.X))
 coordinates(sad69_utm) <- ~UTM.X+UTM.Y
 proj4string(sad69_utm) <- CRS("+init=epsg:5533")
@@ -155,9 +138,7 @@ tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(sad69_utm2gms) + tm_dots("blue") +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
-```
 
-```{r outorgasSad69UtmBacias}
 sad69_utm2gmsBacia = raster::intersect(sad69_utm2gms, ottoMerged)
 
 if(length(sad69_utm2gmsBacia) != 0) {
@@ -166,11 +147,8 @@ tm_shape(ottoMerged) + tm_polygons() +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
 }
-```
 
 ### Unifica dados de outorga dentro da bacia
-
-```{r ottobaciasOutorgas}
 
 outorgasBacia = union(wgs84_gmsBacia, sad69_gms2wgs84Bacia)
 outorgasBacia = union(outorgasBacia, wgs84_utm2gmsBacia)
@@ -178,7 +156,7 @@ outorgasBacia = union(outorgasBacia, sad69_utm2gmsBacia)
 outorgasBacia = outorgasBacia[c('Processo.Outorga' , 'Portaria', 'Data.de.Vencimento.da.Portaria', 'Status.Processo', 'Tipo', 'CPF_CNPJ.Empreendedor')]
 outorgasBacia$Vazao.Captada = 0.001
 
-ottoInteresse = shapefile('../01_Delimitacao_e_Hidrografia/02_ottoBacia_Interesse.shp')
+ottoInteresse = shapefile('./output/02ottoInteresse.shp')
 proj4string(ottoInteresse) = CRS("+init=epsg:4326")
 
 
@@ -187,28 +165,15 @@ tm_shape(ottoInteresse) + tm_polygons() +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
 
-#writeOGR(outorgasBacia, ".", "outorgasBacia.shp", driver="ESRI Shapefile", encoding = 'UTF-8')
-```
-
-
-```{r tabelaOutorgas}
-
-knitr::kable(
-  outorgasBacia@data, caption = 'Outorgas dentro da bacia.'
-)
-
-```
+writeOGR(outorgasBacia, ".", "05outorgasBacia", driver="ESRI Shapefile", encoding = 'UTF-8')
 
 ### Conferir dados de outorga
-
-http://www.igam.mg.gov.br/outorga/sistema-de-consulta-e-decisoes-de-outorga
+## http://www.igam.mg.gov.br/outorga/sistema-de-consulta-e-decisoes-de-outorga
 
 ### Agrupa pela soma dados de outorga de uma ottobacia
 
-```{r acumuladoOtto}
-
-#getOttoId = over(outorgasBacia, ottoInteresse)
-#outorgasBacia$cobacia = getOttoId$cobacia
+getOttoId = over(outorgasBacia, ottoInteresse)
+outorgasBacia$cobacia = getOttoId$cobacia
 VazaoOtto = outorgasBacia@data %>%
         group_by(cobacia) %>%
         summarise(QdemTotal = sum(Vazao.Captada))
@@ -220,15 +185,10 @@ tm_shape(ottoInteresse) + tm_polygons('QdemTotal') +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
 
-```
-
-```{r acumuladoRedeHidrica}
-
-redeHidrica = shapefile('../01_Delimitacao_e_Hidrografia/03_RedeHidrica_Bacia.shp', encoding="UTF-8")
+redeHidrica = shapefile('./output/04redeHidrica.shp', encoding="UTF-8")
 proj4string(redeHidrica) = CRS("+init=epsg:4326")
 
-#getVazaoAcum = over(redeHidrica, ottoInteresse)
-#redeHidrica$QdemTotal = getVazaoAcum$QdemTotal
+getVazaoAcum = over(redeHidrica, ottoInteresse)
 
 redeHidrica = merge(redeHidrica, VazaoOtto, by='cobacia')
 redeHidrica$q7_10 = as.numeric(gsub(",", ".", gsub("\\.", "", redeHidrica$q7_10)))
@@ -237,44 +197,25 @@ redeHidrica$QDH = 0.5 * redeHidrica$q7_10 - redeHidrica$QdemTotal
 redeHidrica$compromDH = ((0.5 * redeHidrica$q7_10) - redeHidrica$QDH) * 100 / (0.5 * redeHidrica$q7_10)
 redeHidrica$QReg = (0.7 * redeHidrica$qmld_) - (0.5 * redeHidrica$q7_10)
 redeHidrica$Viab = redeHidrica$QReg + redeHidrica$QDH
-```
 
-
-```{r qdh}
+### Exporta gráficos finais
 
 tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(redeHidrica) + tm_lines('QDH') +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
 
-```
-
-
-```{r compromDH}
-
 tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(redeHidrica) + tm_lines('compromDH') +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
-
-```
-
-```{r QReg}
 
 tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(redeHidrica) + tm_lines('QReg') +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
 
-```
-
-
-```{r Viab}
-
 tm_shape(ottoMerged) + tm_polygons() +
   tm_shape(redeHidrica) + tm_lines('Viab') +
         tm_grid(labels.inside.frame = FALSE, 
                 projection = "+proj=longlat", col = 'gray')
-
-```
-Fim...
